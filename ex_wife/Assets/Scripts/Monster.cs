@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,15 +10,30 @@ public class Monster : Unit
 
     public float CapacityCooldown { get => capacityCooldown; set => capacityCooldown = value; }
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    public GameObject target;
 
+
+    public Animator anim;
+
+
+    protected void TakeDamage(float dam)
+    {
+        Health -= dam;
+        
+        if ( Health <= 0 )
+        {
+            StartCoroutine("Die");
+        }
+        else
+        {
+            anim.SetTrigger("Hit");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    protected IEnumerator Die()
     {
-
+        anim.SetTrigger("Dead");
+        yield return new WaitForSeconds(1.5f);
+        Destroy(gameObject);
     }
 }

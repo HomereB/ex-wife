@@ -5,10 +5,9 @@ using UnityEngine;
 public class Minotaur : Monster
 {
     public State state;
-    public GameObject target;
     public float chargingDistance;
     public float attackingDistance;
-    public Animator anim;
+    Vector3 direction;
 
 
     private void Start()
@@ -18,8 +17,13 @@ public class Minotaur : Monster
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            TakeDamage(3);
+        }
         capacityCooldown -= Time.deltaTime;
-        Vector3 direction = target.transform.position - transform.position;
+        direction = target.transform.position - transform.position;
+        Flip();
         switch(state)
         {       
             case State.chasing:
@@ -37,11 +41,7 @@ public class Minotaur : Monster
                 }
                 break;
             case State.attacking:
-                direction = target.transform.position - transform.position;
-                if (direction.sqrMagnitude > attackingDistance * attackingDistance)
-                {
-                    state = State.chasing;
-                }
+
                 break;
             case State.charging:
                 direction = target.transform.position - transform.position;
@@ -49,6 +49,20 @@ public class Minotaur : Monster
                 break;
         }
     }
+
+    void Flip()
+    {
+        if (direction.x < 0.0f)
+        {
+            transform.localScale = new Vector3(-1,1,1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    
 
     public enum State
     {
