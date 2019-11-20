@@ -25,9 +25,7 @@ public class CharController : MonoBehaviour
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
             this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
-
             Flip();
-
             animator.SetFloat("Speed", 1.0f);
         }
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
@@ -35,7 +33,10 @@ public class CharController : MonoBehaviour
             this.transform.position += new Vector3(0,Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
-        
+        if (Input.GetButtonUp("XboxA"))
+        {
+            animator.SetTrigger("Attack");
+        }
     }
 
     void Flip()
@@ -48,5 +49,10 @@ public class CharController : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().flipX = false;
         }
+    }
+
+    void Attack()
+    {
+
     }
 }
