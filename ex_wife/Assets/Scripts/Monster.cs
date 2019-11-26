@@ -11,6 +11,8 @@ public class Monster : Unit
     public float CapacityCooldown { get => capacityCooldown; set => capacityCooldown = value; }
 
     public GameObject target;
+    protected Vector3 direction;
+
 
 
     public Animator anim;
@@ -27,6 +29,19 @@ public class Monster : Unit
         else
         {
             anim.SetTrigger("Hit");
+        }
+    }
+
+
+    protected void Flip()
+    {
+        if (direction.x < 0.0f)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
