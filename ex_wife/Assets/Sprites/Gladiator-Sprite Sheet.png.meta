@@ -1,0 +1,823 @@
+fileFormatVersion: 2
+guid: cae453c5d90c37247b2a47e2f29ba903
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2758585858936688284
+    second: Gladiator-Sprite Sheet_0
+  - first:
+      213: -5410530746493934457
+    second: Gladiator-Sprite Sheet_1
+  - first:
+      213: -8936938826535967200
+    second: Gladiator-Sprite Sheet_2
+  - first:
+      213: 954770408286438072
+    second: Gladiator-Sprite Sheet_3
+  - first:
+      213: 6156169965520174419
+    second: Gladiator-Sprite Sheet_4
+  - first:
+      213: 1586942902692254360
+    second: Gladiator-Sprite Sheet_5
+  - first:
+      213: 4299320970823068068
+    second: Gladiator-Sprite Sheet_6
+  - first:
+      213: -1137987050184991593
+    second: Gladiator-Sprite Sheet_7
+  - first:
+      213: 5220942276015923002
+    second: Gladiator-Sprite Sheet_8
+  - first:
+      213: -6575121486492243808
+    second: Gladiator-Sprite Sheet_9
+  - first:
+      213: 4209256362396310418
+    second: Gladiator-Sprite Sheet_10
+  - first:
+      213: -7495478498710023370
+    second: Gladiator-Sprite Sheet_11
+  - first:
+      213: 3341827749002893718
+    second: Gladiator-Sprite Sheet_12
+  - first:
+      213: -5345424459611364138
+    second: Gladiator-Sprite Sheet_13
+  - first:
+      213: -7608959519949356858
+    second: Gladiator-Sprite Sheet_14
+  - first:
+      213: 5761990366505556577
+    second: Gladiator-Sprite Sheet_15
+  - first:
+      213: -1521721972128412622
+    second: Gladiator-Sprite Sheet_16
+  - first:
+      213: -4927842068363774492
+    second: Gladiator-Sprite Sheet_17
+  - first:
+      213: 7743619422210358615
+    second: Gladiator-Sprite Sheet_18
+  - first:
+      213: -1924903104821292958
+    second: Gladiator-Sprite Sheet_19
+  - first:
+      213: 2725959820607229114
+    second: Gladiator-Sprite Sheet_20
+  - first:
+      213: -384800034962473425
+    second: Gladiator-Sprite Sheet_21
+  - first:
+      213: 2899238959057816642
+    second: Gladiator-Sprite Sheet_22
+  - first:
+      213: 8680076485649145736
+    second: Gladiator-Sprite Sheet_23
+  - first:
+      213: -5220713167611284716
+    second: Gladiator-Sprite Sheet_24
+  - first:
+      213: 1110437444766225383
+    second: Gladiator-Sprite Sheet_25
+  - first:
+      213: -478430424982525245
+    second: Gladiator-Sprite Sheet_26
+  - first:
+      213: -489429731594395724
+    second: Gladiator-Sprite Sheet_27
+  - first:
+      213: 2416845169507662468
+    second: Gladiator-Sprite Sheet_28
+  - first:
+      213: -4186517858022635575
+    second: Gladiator-Sprite Sheet_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 129
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4e2dcd3b03c5e43ae95e1af9755fe3
+      internalID: 2758585858936688284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 129
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3f6ee504ab104b9bc79e55ecacff8
+      internalID: -5410530746493934457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754cf5eadc3e6d448ae174cdd750aff
+      internalID: -8936938826535967200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 129
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fc766ac4a2cf144a10025ceeeea4c4
+      internalID: 954770408286438072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 129
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a89910af4c66b74382c02083ed9c04d
+      internalID: 6156169965520174419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 99
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e475648344a8442bbb26d6e5145303
+      internalID: 1586942902692254360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 100
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2aa4f381ce94940b4efd298f20c233
+      internalID: 4299320970823068068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 99
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f0ab8fd582614c88c8722d604eeea
+      internalID: -1137987050184991593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 97
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164b4abe61f270f4cabc8aa1338b19b0
+      internalID: 5220942276015923002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 97
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a728955239a63b40a4f4e8d4fe4eb99
+      internalID: -6575121486492243808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 98
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46c131c50cbe1e4d9c87ce8eb22d117
+      internalID: 4209256362396310418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 97
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5253b7d770ab06449ad488a0ebf3b682
+      internalID: -7495478498710023370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 97
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f107b5942389b46bbe0826144de361
+      internalID: 3341827749002893718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 65
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3c6db94f0ad784cb076f8515c10074
+      internalID: -5345424459611364138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 65
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a8252bc6ae474a96c67c29395ba45
+      internalID: -7608959519949356858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 65
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2f191839bb3544eb3c5a00d73c5d33
+      internalID: 5761990366505556577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 65
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1246395c043ca499fecf0fbb4fd2f9
+      internalID: -1521721972128412622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 65
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bcd90293f1bf149854d2dd8e463412
+      internalID: -4927842068363774492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 65
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395325c5130e8df4fb70135e4d8933da
+      internalID: 7743619422210358615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 65
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903310fbd1042a84884e3d37babb3f28
+      internalID: -1924903104821292958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 33
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea87e4813cb99374c9838bb5730d1d6e
+      internalID: 2725959820607229114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 33
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c971ef5e3d92ef542bf3daf95e7e7a3c
+      internalID: -384800034962473425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 33
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad7a3956e948a04c975ea5fead93fbc
+      internalID: 2899238959057816642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc93a1cff46767d46b919ebdb7359066
+      internalID: 8680076485649145736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020656b01d0eacc43b1e389100b2f88c
+      internalID: -5220713167611284716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212456ee8e2516c4fa0b07739276e96b
+      internalID: 1110437444766225383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6386794b230d97a4499b7e94fbaf91be
+      internalID: -478430424982525245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2523176c0cddd614e93c49638499c373
+      internalID: -489429731594395724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3fb5f7b0ecad749985f89605b3228c
+      internalID: 2416845169507662468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gladiator-Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad46a6b59d645a4fba95564d3638dd1
+      internalID: -4186517858022635575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
