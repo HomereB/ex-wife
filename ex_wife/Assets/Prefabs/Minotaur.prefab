@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2791588470147549195}
   - component: {fileID: 2791588470147549192}
   - component: {fileID: 2334183325199315199}
-  - component: {fileID: 398928811068303512}
+  - component: {fileID: 262420441}
   m_Layer: 0
   m_Name: Minotaur
   m_TagString: Untagged
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &398928811068303512
+--- !u!114 &262420441
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,17 +159,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2791588470147549197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a52197a48a94704da1b5de5d3be9171, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c44999f0e173d64a838e6105ac8b549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
-  speed: 1.5
+  health: 10
+  speed: 1
   capacityCooldown: 0
-  maxCapacityCooldown: 3
+  maxCapacityCooldown: 7
   target: {fileID: 0}
   anim: {fileID: 2791588470147549195}
   state: 0
-  throwingDistance: 3
+  chargingDistance: 3
   attackingDistance: 0.4
-  projectile: {fileID: 0}
-  projectileSpeed: 1
