@@ -7,6 +7,8 @@ public class Cyclope : Monster
     public State state;
     public float throwingDistance;
     public float attackingDistance;
+    public GameObject projectile;
+    public float projectileSpeed;
 
 
     private void Start()
@@ -27,37 +29,40 @@ public class Cyclope : Monster
         {
             case State.chasing:
                 transform.position += direction.normalized * Speed * Time.deltaTime;
-                if (CapacityCooldown < 0 && direction.sqrMagnitude < throwingDistance * throwingDistance)
-                {
-                    anim.SetTrigger("Charge");
-                    capacityCooldown = maxCapacityCooldown;
-                    state = State.charging;
-                }
                 if (direction.sqrMagnitude < attackingDistance * attackingDistance)
                 {
                     anim.SetTrigger("Attack");
                     state = State.attacking;
+                    break;
+                }
+                else if (CapacityCooldown < 0 && direction.sqrMagnitude < throwingDistance * throwingDistance)
+                {
+                    anim.SetTrigger("Throw");
+                    capacityCooldown = maxCapacityCooldown;
+                    state = State.throwing;
+                    break;
                 }
                 break;
             case State.attacking:
-
                 break;
-            case State.charging:
-                direction = target.transform.position - transform.position;
-                transform.position += direction.normalized * Speed * 3 * Time.deltaTime;
+
+            case State.throwing:
                 break;
         }
     }
 
-
-
+    public void ThrowRock()
+    {
+        GameObject go = Instantiate(projectile);
+        go.GetComponent<Rigidbody2D>().velocity = direction*projectileSpeed;
+    }
 
     public enum State
     {
         idle,
         chasing,
         attacking,
-        charging,
+        throwing,
         hit,
         death,
     }
