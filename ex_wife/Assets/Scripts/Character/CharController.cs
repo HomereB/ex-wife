@@ -1,22 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharController : MonoBehaviour
 {
     public float speed = 2.0f;
-    public Animator animator;
+    public float metamorphe = 0.0f;
+    public Text progressionBar;
+    public GameObject bullet;
+
+    private bool isMeta = false;
+    private Animator animator;
+    private float speedMeta = 0.08f;
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         JoystickCall();
+        Metamorphose();
     }
 
     void JoystickCall()
@@ -36,6 +45,7 @@ public class CharController : MonoBehaviour
         if (Input.GetButtonUp("XboxA"))
         {
             animator.SetTrigger("Attack");
+            Attack();
         }
     }
 
@@ -53,6 +63,26 @@ public class CharController : MonoBehaviour
 
     void Attack()
     {
+        if (!isMeta)
+        {
+            //a changer lorsqu'il visera
+            Instantiate(bullet, this.transform.position, Quaternion.identity);
+        }
+    }
+    void Metamorphose()
+    {
+        progressionBar.text = metamorphe.ToString();
+        metamorphe += speedMeta;
 
+        if (metamorphe >= 100.0f)
+        {
+            speedMeta = 0.0f;
+            if (!isMeta)
+            {
+                //change du poids du layer pour changer le layer
+                animator.SetLayerWeight(1, 1);
+                isMeta = true;
+            }
+        }
     }
 }
