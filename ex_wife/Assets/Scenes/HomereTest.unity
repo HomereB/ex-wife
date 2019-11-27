@@ -350,6 +350,27 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1779087329}
+    - target: {fileID: 2765732434646498693, guid: e0d715cb02bce0749b221e6c21e54022,
+        type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 7224312845307173992, guid: 969fa808de7359f498d9d77fd57f7b7d,
+        type: 3}
+    - target: {fileID: 2765732434646498693, guid: e0d715cb02bce0749b221e6c21e54022,
+        type: 3}
+      propertyPath: maxCapacityCooldown
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2765732434646498693, guid: e0d715cb02bce0749b221e6c21e54022,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 255634268252890594, guid: e0d715cb02bce0749b221e6c21e54022,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d715cb02bce0749b221e6c21e54022, type: 3}
 --- !u!1001 &2791588469132747487
@@ -363,6 +384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Minotaur
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791588470147549197, guid: b01610741d9336448817f16a3a0df955,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2791588470147549193, guid: b01610741d9336448817f16a3a0df955,
         type: 3}
@@ -423,5 +449,18 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1779087329}
+    - target: {fileID: 262420441, guid: b01610741d9336448817f16a3a0df955, type: 3}
+      propertyPath: attackingDistance
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 262420441, guid: b01610741d9336448817f16a3a0df955, type: 3}
+      propertyPath: state
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334183325199315199, guid: b01610741d9336448817f16a3a0df955,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b01610741d9336448817f16a3a0df955, type: 3}

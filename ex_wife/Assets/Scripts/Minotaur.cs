@@ -16,7 +16,6 @@ public class Minotaur : Monster
 
     private void Update()
     {
-        Debug.Log(state);
         if (Input.GetKeyDown(KeyCode.A))
         {
             TakeDamage(3);

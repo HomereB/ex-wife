@@ -54,7 +54,8 @@ public class Cyclope : Monster
     public void ThrowRock()
     {
         GameObject go = Instantiate(projectile);
-        go.GetComponent<Rigidbody2D>().velocity = direction*projectileSpeed;
+        go.transform.position = transform.position + Vector3.up * 0.2f;
+        go.GetComponent<Rock>().velocity = direction.normalized*projectileSpeed;
     }
 
     public enum State
