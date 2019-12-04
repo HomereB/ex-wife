@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: 6865491531c317847ac27dfd4168f1c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8928686000423669638
+    second: PC Computer - Starbound - Toxic Golem_0
+  - first:
+      213: -6929718203139395206
+    second: PC Computer - Starbound - Toxic Golem_1
+  - first:
+      213: -5225758878251000454
+    second: PC Computer - Starbound - Toxic Golem_2
+  - first:
+      213: 6118122615625779820
+    second: PC Computer - Starbound - Toxic Golem_3
+  - first:
+      213: -2093189066680746972
+    second: PC Computer - Starbound - Toxic Golem_4
+  - first:
+      213: 5016954704415797283
+    second: PC Computer - Starbound - Toxic Golem_5
+  - first:
+      213: 6179577807341619958
+    second: PC Computer - Starbound - Toxic Golem_6
+  - first:
+      213: -1267444842165760676
+    second: PC Computer - Starbound - Toxic Golem_7
+  - first:
+      213: -7890935339828369701
+    second: PC Computer - Starbound - Toxic Golem_8
+  - first:
+      213: -1176755854508859670
+    second: PC Computer - Starbound - Toxic Golem_9
+  - first:
+      213: -40411754835788922
+    second: PC Computer - Starbound - Toxic Golem_10
+  - first:
+      213: 3986432935485929182
+    second: PC Computer - Starbound - Toxic Golem_11
+  - first:
+      213: 7267359770264303395
+    second: PC Computer - Starbound - Toxic Golem_12
+  - first:
+      213: 2879005262927603866
+    second: PC Computer - Starbound - Toxic Golem_13
+  - first:
+      213: -3324852440593372511
+    second: PC Computer - Starbound - Toxic Golem_14
+  - first:
+      213: -9061014761553158830
+    second: PC Computer - Starbound - Toxic Golem_15
+  - first:
+      213: 3342670911401260433
+    second: PC Computer - Starbound - Toxic Golem_16
+  - first:
+      213: 1890931667066916504
+    second: PC Computer - Starbound - Toxic Golem_17
+  - first:
+      213: -8662952821350168244
+    second: PC Computer - Starbound - Toxic Golem_18
+  - first:
+      213: -928666014428435425
+    second: PC Computer - Starbound - Toxic Golem_19
+  - first:
+      213: 6151317992248653691
+    second: PC Computer - Starbound - Toxic Golem_20
+  - first:
+      213: 3824687603026961567
+    second: PC Computer - Starbound - Toxic Golem_21
+  - first:
+      213: -573418613199671200
+    second: PC Computer - Starbound - Toxic Golem_22
+  - first:
+      213: -1301928464498531186
+    second: PC Computer - Starbound - Toxic Golem_23
+  - first:
+      213: -2480772183343074260
+    second: PC Computer - Starbound - Toxic Golem_24
+  - first:
+      213: -3090815683863797035
+    second: PC Computer - Starbound - Toxic Golem_25
+  - first:
+      213: -3432311784779041553
+    second: PC Computer - Starbound - Toxic Golem_26
+  - first:
+      213: -4409566260810211507
+    second: PC Computer - Starbound - Toxic Golem_27
+  - first:
+      213: 2892598418371349179
+    second: PC Computer - Starbound - Toxic Golem_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 36
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cec548fb902e34da46e79d349454c2
+      internalID: -8928686000423669638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 161
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bf91cddc1dd1e4aa4f3c5e7559c338
+      internalID: -6929718203139395206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 161
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df5171ec20513b4fbca1fc5b0320734
+      internalID: -5225758878251000454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 161
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c866c1a1761c32f4f95ee0a04ac36a42
+      internalID: 6118122615625779820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 161
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1686cc0a4e715fc4badd3ec36036e42e
+      internalID: -2093189066680746972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 122
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc25122fe34cae641822b6375b74f0b4
+      internalID: 5016954704415797283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 122
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a003e5895c0ad469ecff884e514fff
+      internalID: 6179577807341619958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 121
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eebba73e24d7bf4d8d24b14a24df0bf
+      internalID: -1267444842165760676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 120
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce74d31054d35418cd4036a0af5719
+      internalID: -7890935339828369701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_9
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 81
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778d294324920294b953e3e1f381394c
+      internalID: -1176755854508859670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 81
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e2a2171e53f2f4285c934054f3099c
+      internalID: -40411754835788922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 81
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810a2bffc610eff44b1a4087279a4625
+      internalID: 3986432935485929182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 81
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7639679b7fa2bcc4ea9a3102910134f5
+      internalID: 7267359770264303395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 41
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f5c9c2f1df2640b7efa99bbba8f10
+      internalID: 2879005262927603866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 41
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f87a756f5b49f94ab0da62e46a7b548
+      internalID: -3324852440593372511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 41
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90308fca0b151a34cb8eacf05c61cde0
+      internalID: -9061014761553158830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 41
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377f9cc7f217f8b47b0bf1efc7512850
+      internalID: 3342670911401260433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_17
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 41
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3377c5a9f22b52e4fa4c155ca1e632e9
+      internalID: 1890931667066916504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_18
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 41
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332fe9210a5e36b48831629bc0a60ebd
+      internalID: -8662952821350168244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_19
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 41
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c8fd6627a86f04199f86f15f9cfdf0
+      internalID: -928666014428435425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 41
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e26bc9f8fbf5cf44995797f916f4d4a
+      internalID: 6151317992248653691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f53782b2f3c5a489e1971d64eb49bb
+      internalID: 3824687603026961567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75dcba5491991784db88547b0855d2fe
+      internalID: -573418613199671200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04818b47b4f6c06489f7c8375fdc3cf4
+      internalID: -1301928464498531186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e8edf94dfeaf4dbd9ccf365dc48fa
+      internalID: -2480772183343074260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b71aca8819e9940a6a1f4d68434fb5
+      internalID: -3090815683863797035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_26
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b3b6cd3f8e2474e8363089cfaa0d11
+      internalID: -3432311784779041553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_27
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad2fbd3472a6364cad739bbe1b4d3fb
+      internalID: -4409566260810211507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Starbound - Toxic Golem_28
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985cbc0e5da47348a84d9943fe2a0e4
+      internalID: 2892598418371349179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
