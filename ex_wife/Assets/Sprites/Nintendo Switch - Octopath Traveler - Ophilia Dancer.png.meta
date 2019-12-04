@@ -1,0 +1,1987 @@
+fileFormatVersion: 2
+guid: 0d28a01ce61f6f14892f5ee7199e65e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8757881995905759276
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_0
+  - first:
+      213: -7188649331375567785
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_1
+  - first:
+      213: -1956954120522345587
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_2
+  - first:
+      213: 8510883668823926345
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_3
+  - first:
+      213: -6895698975182743192
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_4
+  - first:
+      213: -5983544868435687228
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_5
+  - first:
+      213: -178039251291550714
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_6
+  - first:
+      213: -8176885164566777693
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_7
+  - first:
+      213: -6119766049371149891
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_8
+  - first:
+      213: -6319784084214135277
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_9
+  - first:
+      213: -2347533266071213603
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_10
+  - first:
+      213: 5591474812029996801
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_11
+  - first:
+      213: 5127362195140755742
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_12
+  - first:
+      213: 567516066107450970
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_13
+  - first:
+      213: -3531229121344485087
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_14
+  - first:
+      213: 4604367945045775716
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_15
+  - first:
+      213: 5076989555858198964
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_16
+  - first:
+      213: 7272716680099189926
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_17
+  - first:
+      213: -5594400800899274586
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_18
+  - first:
+      213: 534986850968378132
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_19
+  - first:
+      213: 4794866787269371812
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_20
+  - first:
+      213: -4978357136181893218
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_21
+  - first:
+      213: -6204058900826489338
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_22
+  - first:
+      213: 5868981407667202268
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_23
+  - first:
+      213: 1708736812332392561
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_24
+  - first:
+      213: 3362743376211543371
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_25
+  - first:
+      213: -8669860007919734515
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_26
+  - first:
+      213: 268654008593684240
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_27
+  - first:
+      213: -3850610980112831993
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_28
+  - first:
+      213: -4854104575576261891
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_29
+  - first:
+      213: -3662242802591005247
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_30
+  - first:
+      213: 1200922732619847432
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_31
+  - first:
+      213: -1191259871082855324
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_32
+  - first:
+      213: 6241130932915192658
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_33
+  - first:
+      213: 2690786896497583848
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_34
+  - first:
+      213: -8535945178573856578
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_35
+  - first:
+      213: 8027483331673673919
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_36
+  - first:
+      213: -8790278978384385014
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_37
+  - first:
+      213: 1519577756758826128
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_38
+  - first:
+      213: -7446010050172079004
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_39
+  - first:
+      213: 7472440537600984378
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_40
+  - first:
+      213: -979878711254701424
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_41
+  - first:
+      213: 3791264424371362542
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_42
+  - first:
+      213: -2439251121417464170
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_43
+  - first:
+      213: 3813587464109301249
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_44
+  - first:
+      213: 8336577546534860116
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_45
+  - first:
+      213: 6673314087001467724
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_46
+  - first:
+      213: 900073329492841128
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_47
+  - first:
+      213: -3122228257764931305
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_48
+  - first:
+      213: 2380900622887160513
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_49
+  - first:
+      213: -8398290793609899528
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_50
+  - first:
+      213: 3872901262616969092
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_51
+  - first:
+      213: -8341588241489160015
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_52
+  - first:
+      213: 5880820705471154982
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_53
+  - first:
+      213: 654325282169968272
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_54
+  - first:
+      213: 2235182851727206757
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_55
+  - first:
+      213: -3277684931591142515
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_56
+  - first:
+      213: -6955270403111520907
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_57
+  - first:
+      213: -2079354155593068440
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_58
+  - first:
+      213: 4419328375730517683
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_59
+  - first:
+      213: -5716090452469173046
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_60
+  - first:
+      213: 248769631228985554
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_61
+  - first:
+      213: 5097145200193902239
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_62
+  - first:
+      213: -5011358801936930422
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_63
+  - first:
+      213: 3011954358999228838
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_64
+  - first:
+      213: -265894648938424748
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_65
+  - first:
+      213: -6554940393806519273
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_66
+  - first:
+      213: 5273688852456441801
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_67
+  - first:
+      213: -5633125902792933279
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_68
+  - first:
+      213: 7679889974823630907
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_69
+  - first:
+      213: -2492951336894230950
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_70
+  - first:
+      213: -2498600271389531691
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_71
+  - first:
+      213: 3456224433496474780
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_72
+  - first:
+      213: -4655757847741464789
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_73
+  - first:
+      213: -7590493191634200682
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_74
+  - first:
+      213: -4856218210409871343
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_75
+  - first:
+      213: 3920584097714570192
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_76
+  - first:
+      213: -3659082036539520842
+    second: Nintendo Switch - Octopath Traveler - Ophilia Dancer_77
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 222
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de57e6a97783524fa3e14f0c831ec95
+      internalID: -8757881995905759276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 222
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f9f7d77577ffd40b0289340c9a29c1
+      internalID: -7188649331375567785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35834ab2a43c9854686b462bb354ebd1
+      internalID: -1956954120522345587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 222
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9d5f8559aface40997b66fa205b884
+      internalID: 8510883668823926345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 222
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cf0a87950ea204a9b07090bb9b486f
+      internalID: -6895698975182743192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3387e8adf4d916a47a59752316269d17
+      internalID: -5983544868435687228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 224
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a32f6724fedf45ac399991617b874
+      internalID: -178039251291550714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 226
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df7304aeb4721043abacf0b6039b6fa
+      internalID: -8176885164566777693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 226
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408c751786c2d6e4e95cdedfebb44958
+      internalID: -6119766049371149891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_9
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 227
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f811e75a20295e7479b927712a387287
+      internalID: -6319784084214135277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7735ec557b676840b0276a9423e0b08
+      internalID: -2347533266071213603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 227
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77843a9733845ad42a2089a40cef5cdc
+      internalID: 5591474812029996801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 226
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaad0df479a05d849a615d68b32dec45
+      internalID: 5127362195140755742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 224
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5c3a508b1ad6f4d844d92a8fa244f1
+      internalID: 567516066107450970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 225
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de600fd688eea4386de6a89f542dde
+      internalID: -3531229121344485087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_15
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 222
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fe52f4424644a4788f4e7a08bf9913
+      internalID: 4604367945045775716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 222
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae74295e1fd5e741a6138a60cca90b9
+      internalID: 5076989555858198964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c661f5a288f2574f91bb035055dcd05
+      internalID: 7272716680099189926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_18
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a850f005e7b3e43943e9bddca8bc95
+      internalID: -5594400800899274586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab345a80ddb978409270ebfe4b136a8
+      internalID: 534986850968378132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_20
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf4f8f1905e7c478e812655681cc5b
+      internalID: 4794866787269371812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 229
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18182b4a0d6175f478ba37906ecd69d4
+      internalID: -4978357136181893218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_22
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 229
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e79a1452415c84ebb11c17ded76b13
+      internalID: -6204058900826489338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_23
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 229
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986e1044a9559d488d6a120136dfeb7
+      internalID: 5868981407667202268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 188
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba30266c395a5304eaf2d12197c03bdb
+      internalID: 1708736812332392561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cd5a8732ffb594c84414b9729febef
+      internalID: 3362743376211543371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 190
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d72605eccee7254caad5889ec0c96a5
+      internalID: -8669860007919734515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_27
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 190
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f402d8a8a5e3e3e4b8b4d53e56683f42
+      internalID: 268654008593684240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 189
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3e09acb8d95674d950fbce75085dde
+      internalID: -3850610980112831993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 190
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08ab44995c46d4da493b4fb3c664c6
+      internalID: -4854104575576261891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 182
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8617bd128b4245d40aa0ab4b2aa59bf0
+      internalID: -3662242802591005247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 192
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49da9d801c69ff146aa13666d08a2692
+      internalID: 1200922732619847432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_32
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 193
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49769b0c85ef59144b964c57cfd1bf94
+      internalID: -1191259871082855324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_33
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 193
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe518dce30a7b114789963e4f1f77b3f
+      internalID: 6241130932915192658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_34
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 193
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681ec1d63c5ec5a44841d11b77c06197
+      internalID: 2690786896497583848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_35
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 192
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4088adca2a1470742a9058490b13655a
+      internalID: -8535945178573856578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 190
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10063ab933e4a244d896b1f9fc6dc1f1
+      internalID: 8027483331673673919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_37
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 191
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a2473493723714ba666695ba45e74e
+      internalID: -8790278978384385014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5436dd0da39bc24e925d16356414370
+      internalID: 1519577756758826128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_39
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c95062b1e1e93f40965929875e323ee
+      internalID: -7446010050172079004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_40
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 188
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856abd778cb23c4bad8b9149ff44e40
+      internalID: 7472440537600984378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 149
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776564d172d0e1e46be3d4ae5cf6a872
+      internalID: -979878711254701424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 147
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255ba0ba77cb40540a814026e4c02f6e
+      internalID: 3791264424371362542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_43
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 168
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e25d6d435a3324d810f5ce2c8b0a2f
+      internalID: -2439251121417464170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 148
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98edffffa76067e469ca0903672d41ce
+      internalID: 3813587464109301249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 150
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7104c6dcd0f48b4e8d3b5b654c56575
+      internalID: 8336577546534860116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_46
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 150
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c116e043dd382459daacaa91d465d2
+      internalID: 6673314087001467724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 150
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c6fede228bdcc4781b4f8c27dbb47a
+      internalID: 900073329492841128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2079551ed9b852c4f95cdff09af2a2e9
+      internalID: -3122228257764931305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 148
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ab294ab0002ff4ea13c69c963a3682
+      internalID: 2380900622887160513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_50
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935268c908148fc47aa0660e51c12fb1
+      internalID: -8398290793609899528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_51
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6cd07b53d496c49b8edd747e332838
+      internalID: 3872901262616969092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_52
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 148
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e44ef7275afa642892a2e344a742bb
+      internalID: -8341588241489160015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_53
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a0df53d213b184e9f3087c69a4bf84
+      internalID: 5880820705471154982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_54
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b2a2a94b2ff5d4cae668fb8a0de8bc
+      internalID: 654325282169968272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_55
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a98ade533cdd3429dc21e030a07fc1
+      internalID: 2235182851727206757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_56
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee26f49399156c04ea28a07e423d2e8e
+      internalID: -3277684931591142515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_57
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfc2e76aaf83b945934e8764f2423b7
+      internalID: -6955270403111520907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_58
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1bed6c1a0d1704281e39800fe41449
+      internalID: -2079354155593068440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_59
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 148
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb49747fa1baf60479eb2e8e3337ff79
+      internalID: 4419328375730517683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_60
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 149
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f7f4b29cf6fc445bee6afb64859c25
+      internalID: -5716090452469173046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_61
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 148
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001ac4d52c2fbe41aa0ec254635a24f
+      internalID: 248769631228985554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_62
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 148
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2a8061b7b03af419182e485d2ecd96
+      internalID: 5097145200193902239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_63
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 148
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d9214a1b196f64180c6f6d82b56917
+      internalID: -5011358801936930422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_64
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 113
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f8a6cb9bc389948bf0fbc917ea7f40
+      internalID: 3011954358999228838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_65
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 129
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed7ca84c6e3dee4889ef7aa665990e9
+      internalID: -265894648938424748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_66
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 114
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6a3738b5dc37a4ba18e7a98f2cb9ae
+      internalID: -6554940393806519273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_67
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 113
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54c6f6462405b48982a0fb42f30e45
+      internalID: 5273688852456441801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 112
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b662666c6535f3478741d3892a9eb63
+      internalID: -5633125902792933279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_69
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 115
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc4e94e46441504eb9f8b653e1b898f
+      internalID: 7679889974823630907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_70
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 114
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75adb74ee0c531479c63ce1cf52ef91
+      internalID: -2492951336894230950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_71
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 113
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222dc567cc990964897c9213c623dead
+      internalID: -2498600271389531691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_72
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 114
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e277629bd95e9684fab44120b91105d1
+      internalID: 3456224433496474780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_73
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 113
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0d7d5f55efad84fa24f50f0ec954b0
+      internalID: -4655757847741464789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6032dee94cc772046a6f3074b3131c43
+      internalID: -7590493191634200682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_75
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 115
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8937cfea0d9053246b66c1cb84266d16
+      internalID: -4856218210409871343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_76
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 114
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5943235b11bd07489d7f8a0279fa3db
+      internalID: 3920584097714570192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Ophilia Dancer_77
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 113
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8b6ff454353a34e9b61440c0284c49
+      internalID: -3659082036539520842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

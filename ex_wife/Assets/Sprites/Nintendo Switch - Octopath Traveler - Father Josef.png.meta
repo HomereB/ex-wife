@@ -1,0 +1,2611 @@
+fileFormatVersion: 2
+guid: 9b1a2b8d257ee9548b97e5967f2939b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4129317137570412779
+    second: Nintendo Switch - Octopath Traveler - Father Josef_0
+  - first:
+      213: -1103208981699047054
+    second: Nintendo Switch - Octopath Traveler - Father Josef_1
+  - first:
+      213: 6515700787649652323
+    second: Nintendo Switch - Octopath Traveler - Father Josef_2
+  - first:
+      213: -7979499566703222945
+    second: Nintendo Switch - Octopath Traveler - Father Josef_3
+  - first:
+      213: 2095058970669125561
+    second: Nintendo Switch - Octopath Traveler - Father Josef_4
+  - first:
+      213: 7165579858774583493
+    second: Nintendo Switch - Octopath Traveler - Father Josef_5
+  - first:
+      213: -7541764469911797355
+    second: Nintendo Switch - Octopath Traveler - Father Josef_6
+  - first:
+      213: -3414898452259512754
+    second: Nintendo Switch - Octopath Traveler - Father Josef_7
+  - first:
+      213: -2295862321674197748
+    second: Nintendo Switch - Octopath Traveler - Father Josef_8
+  - first:
+      213: -7706934352580444088
+    second: Nintendo Switch - Octopath Traveler - Father Josef_9
+  - first:
+      213: -3244319716115477564
+    second: Nintendo Switch - Octopath Traveler - Father Josef_10
+  - first:
+      213: 1414146669910583813
+    second: Nintendo Switch - Octopath Traveler - Father Josef_11
+  - first:
+      213: -9038588854539608729
+    second: Nintendo Switch - Octopath Traveler - Father Josef_12
+  - first:
+      213: -5578607598510880176
+    second: Nintendo Switch - Octopath Traveler - Father Josef_13
+  - first:
+      213: 5938439608174015916
+    second: Nintendo Switch - Octopath Traveler - Father Josef_14
+  - first:
+      213: -8703945564739078813
+    second: Nintendo Switch - Octopath Traveler - Father Josef_15
+  - first:
+      213: 5086928059420988599
+    second: Nintendo Switch - Octopath Traveler - Father Josef_16
+  - first:
+      213: -6402301189338000534
+    second: Nintendo Switch - Octopath Traveler - Father Josef_17
+  - first:
+      213: -7687703512417121208
+    second: Nintendo Switch - Octopath Traveler - Father Josef_18
+  - first:
+      213: 2642055845991109684
+    second: Nintendo Switch - Octopath Traveler - Father Josef_19
+  - first:
+      213: -8963128345314638191
+    second: Nintendo Switch - Octopath Traveler - Father Josef_20
+  - first:
+      213: 47288187633250385
+    second: Nintendo Switch - Octopath Traveler - Father Josef_21
+  - first:
+      213: 1975191520704366280
+    second: Nintendo Switch - Octopath Traveler - Father Josef_22
+  - first:
+      213: 2642093138187841144
+    second: Nintendo Switch - Octopath Traveler - Father Josef_23
+  - first:
+      213: -5187666229425611426
+    second: Nintendo Switch - Octopath Traveler - Father Josef_24
+  - first:
+      213: 3783302450401064407
+    second: Nintendo Switch - Octopath Traveler - Father Josef_25
+  - first:
+      213: 2043869740899146532
+    second: Nintendo Switch - Octopath Traveler - Father Josef_26
+  - first:
+      213: 8651527817542748241
+    second: Nintendo Switch - Octopath Traveler - Father Josef_27
+  - first:
+      213: -5972379965546856425
+    second: Nintendo Switch - Octopath Traveler - Father Josef_28
+  - first:
+      213: 170527537711746478
+    second: Nintendo Switch - Octopath Traveler - Father Josef_29
+  - first:
+      213: 1537646643814209689
+    second: Nintendo Switch - Octopath Traveler - Father Josef_30
+  - first:
+      213: 8533654095552116321
+    second: Nintendo Switch - Octopath Traveler - Father Josef_31
+  - first:
+      213: -2138599244197851059
+    second: Nintendo Switch - Octopath Traveler - Father Josef_32
+  - first:
+      213: -4443350349456816834
+    second: Nintendo Switch - Octopath Traveler - Father Josef_33
+  - first:
+      213: 6790717963418365664
+    second: Nintendo Switch - Octopath Traveler - Father Josef_34
+  - first:
+      213: -7451984186296154254
+    second: Nintendo Switch - Octopath Traveler - Father Josef_35
+  - first:
+      213: 7258689471530334011
+    second: Nintendo Switch - Octopath Traveler - Father Josef_36
+  - first:
+      213: 6757565225784534478
+    second: Nintendo Switch - Octopath Traveler - Father Josef_37
+  - first:
+      213: 4877907816048501693
+    second: Nintendo Switch - Octopath Traveler - Father Josef_38
+  - first:
+      213: -1220432884021022588
+    second: Nintendo Switch - Octopath Traveler - Father Josef_39
+  - first:
+      213: 1423121528214009454
+    second: Nintendo Switch - Octopath Traveler - Father Josef_40
+  - first:
+      213: 8353775027026707934
+    second: Nintendo Switch - Octopath Traveler - Father Josef_41
+  - first:
+      213: 5681664231922946788
+    second: Nintendo Switch - Octopath Traveler - Father Josef_42
+  - first:
+      213: 2116195775042364930
+    second: Nintendo Switch - Octopath Traveler - Father Josef_43
+  - first:
+      213: 341972216457424167
+    second: Nintendo Switch - Octopath Traveler - Father Josef_44
+  - first:
+      213: -2234519612293826846
+    second: Nintendo Switch - Octopath Traveler - Father Josef_45
+  - first:
+      213: 8101003840832114465
+    second: Nintendo Switch - Octopath Traveler - Father Josef_46
+  - first:
+      213: 1460682687001783603
+    second: Nintendo Switch - Octopath Traveler - Father Josef_47
+  - first:
+      213: -7070366657731196353
+    second: Nintendo Switch - Octopath Traveler - Father Josef_48
+  - first:
+      213: -942070155498976338
+    second: Nintendo Switch - Octopath Traveler - Father Josef_49
+  - first:
+      213: 4486335923651869041
+    second: Nintendo Switch - Octopath Traveler - Father Josef_50
+  - first:
+      213: 212330403752218420
+    second: Nintendo Switch - Octopath Traveler - Father Josef_51
+  - first:
+      213: 7998614872558482634
+    second: Nintendo Switch - Octopath Traveler - Father Josef_52
+  - first:
+      213: 1224107323699959950
+    second: Nintendo Switch - Octopath Traveler - Father Josef_53
+  - first:
+      213: -5364882402888490515
+    second: Nintendo Switch - Octopath Traveler - Father Josef_54
+  - first:
+      213: 6294801667579190455
+    second: Nintendo Switch - Octopath Traveler - Father Josef_55
+  - first:
+      213: 6390045516231404998
+    second: Nintendo Switch - Octopath Traveler - Father Josef_56
+  - first:
+      213: 1124888760923831568
+    second: Nintendo Switch - Octopath Traveler - Father Josef_57
+  - first:
+      213: -4466993691949853589
+    second: Nintendo Switch - Octopath Traveler - Father Josef_58
+  - first:
+      213: 5623268104029263418
+    second: Nintendo Switch - Octopath Traveler - Father Josef_59
+  - first:
+      213: 6155204850401862262
+    second: Nintendo Switch - Octopath Traveler - Father Josef_60
+  - first:
+      213: -6370328643526684489
+    second: Nintendo Switch - Octopath Traveler - Father Josef_61
+  - first:
+      213: -7610481086939829538
+    second: Nintendo Switch - Octopath Traveler - Father Josef_62
+  - first:
+      213: 9077769240739746345
+    second: Nintendo Switch - Octopath Traveler - Father Josef_63
+  - first:
+      213: -655547968392076454
+    second: Nintendo Switch - Octopath Traveler - Father Josef_64
+  - first:
+      213: 6452584837055174107
+    second: Nintendo Switch - Octopath Traveler - Father Josef_65
+  - first:
+      213: -5018671902010976364
+    second: Nintendo Switch - Octopath Traveler - Father Josef_66
+  - first:
+      213: -6921310368026262252
+    second: Nintendo Switch - Octopath Traveler - Father Josef_67
+  - first:
+      213: 4225771017891997799
+    second: Nintendo Switch - Octopath Traveler - Father Josef_68
+  - first:
+      213: -4169347040124788838
+    second: Nintendo Switch - Octopath Traveler - Father Josef_69
+  - first:
+      213: -4265706341298235722
+    second: Nintendo Switch - Octopath Traveler - Father Josef_70
+  - first:
+      213: -904697929483102887
+    second: Nintendo Switch - Octopath Traveler - Father Josef_71
+  - first:
+      213: -8013864694226104641
+    second: Nintendo Switch - Octopath Traveler - Father Josef_72
+  - first:
+      213: 3539921476327799988
+    second: Nintendo Switch - Octopath Traveler - Father Josef_73
+  - first:
+      213: -5494962909366801456
+    second: Nintendo Switch - Octopath Traveler - Father Josef_74
+  - first:
+      213: -3028386729070274016
+    second: Nintendo Switch - Octopath Traveler - Father Josef_75
+  - first:
+      213: -8627379297798606696
+    second: Nintendo Switch - Octopath Traveler - Father Josef_76
+  - first:
+      213: 941521437880948312
+    second: Nintendo Switch - Octopath Traveler - Father Josef_77
+  - first:
+      213: 2475062806157292861
+    second: Nintendo Switch - Octopath Traveler - Father Josef_78
+  - first:
+      213: 8618495414739505748
+    second: Nintendo Switch - Octopath Traveler - Father Josef_79
+  - first:
+      213: 4046870166178024994
+    second: Nintendo Switch - Octopath Traveler - Father Josef_80
+  - first:
+      213: 4021884490564567759
+    second: Nintendo Switch - Octopath Traveler - Father Josef_81
+  - first:
+      213: 6584653056991950617
+    second: Nintendo Switch - Octopath Traveler - Father Josef_82
+  - first:
+      213: 6203007430026147924
+    second: Nintendo Switch - Octopath Traveler - Father Josef_83
+  - first:
+      213: -6496817713954998462
+    second: Nintendo Switch - Octopath Traveler - Father Josef_84
+  - first:
+      213: -9004173723285773935
+    second: Nintendo Switch - Octopath Traveler - Father Josef_85
+  - first:
+      213: 8807459128860390359
+    second: Nintendo Switch - Octopath Traveler - Father Josef_86
+  - first:
+      213: 121285715460612184
+    second: Nintendo Switch - Octopath Traveler - Father Josef_87
+  - first:
+      213: 120534265370729069
+    second: Nintendo Switch - Octopath Traveler - Father Josef_88
+  - first:
+      213: 8827702929732435428
+    second: Nintendo Switch - Octopath Traveler - Father Josef_89
+  - first:
+      213: 7797299899587540095
+    second: Nintendo Switch - Octopath Traveler - Father Josef_90
+  - first:
+      213: -7544348251281290043
+    second: Nintendo Switch - Octopath Traveler - Father Josef_91
+  - first:
+      213: 6970681842661782688
+    second: Nintendo Switch - Octopath Traveler - Father Josef_92
+  - first:
+      213: 2941862300716613340
+    second: Nintendo Switch - Octopath Traveler - Father Josef_93
+  - first:
+      213: -5217986228760517668
+    second: Nintendo Switch - Octopath Traveler - Father Josef_94
+  - first:
+      213: 8710743953220921643
+    second: Nintendo Switch - Octopath Traveler - Father Josef_95
+  - first:
+      213: 8893019859928075828
+    second: Nintendo Switch - Octopath Traveler - Father Josef_96
+  - first:
+      213: -3613833663160445590
+    second: Nintendo Switch - Octopath Traveler - Father Josef_97
+  - first:
+      213: -6940874726740904273
+    second: Nintendo Switch - Octopath Traveler - Father Josef_98
+  - first:
+      213: 4322718188625608180
+    second: Nintendo Switch - Octopath Traveler - Father Josef_99
+  - first:
+      213: 3142400949544742863
+    second: Nintendo Switch - Octopath Traveler - Father Josef_100
+  - first:
+      213: -5051419434737192297
+    second: Nintendo Switch - Octopath Traveler - Father Josef_101
+  - first:
+      213: 7990338893935246889
+    second: Nintendo Switch - Octopath Traveler - Father Josef_102
+  - first:
+      213: 1939414220229458914
+    second: Nintendo Switch - Octopath Traveler - Father Josef_103
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 241
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a696454e18620747b22d1a2046a97d4
+      internalID: -4129317137570412779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 241
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03916a00aab6a00468c9f3df143e0641
+      internalID: -1103208981699047054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 241
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82a5aa8ef3d0c249b7973dabccab7e8
+      internalID: 6515700787649652323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 241
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce17b787813cf5f4d94b63b0f2013b1d
+      internalID: -7979499566703222945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 224
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c515b62e1b5a19b45a75617a2507408f
+      internalID: 2095058970669125561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 221
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db7c8bb208b1048bd23b6bdde514a9
+      internalID: 7165579858774583493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 221
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6326d0cf43515c049aded7ac0169372b
+      internalID: -7541764469911797355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d464952eb58adb740bf5f535a2dd6d6a
+      internalID: -3414898452259512754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db77b340707343c44a2cd221b7d92e49
+      internalID: -2295862321674197748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_9
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cf253cf89788b4b86a89fafe74f34f
+      internalID: -7706934352580444088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 223
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8973c9d0d22816f4e86d2c135a3c51e6
+      internalID: -3244319716115477564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 223
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe28ddba6d844514a8de13dedd2fe9cc
+      internalID: 1414146669910583813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455d820971672e24c8a8cf7f33ad39a5
+      internalID: -9038588854539608729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 223
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e73927025cbf4e8e84982e7eac512
+      internalID: -5578607598510880176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 224
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910e87984d04ee64b83ec45eb543f3dc
+      internalID: 5938439608174015916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df79dce9b6a254ab2514079ceb4472
+      internalID: -8703945564739078813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467bd3a315e447b4cb54ae8c295469a9
+      internalID: 5086928059420988599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398c9a2e01d5ed4fb651b8401b23309
+      internalID: -6402301189338000534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_18
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7af2214dc98697488d3c1af06b86fb2
+      internalID: -7687703512417121208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 221
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d0f8fc643cf884a802926ccbd1df35
+      internalID: 2642055845991109684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_20
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c60e6ac50aed44f98e2ae08f0ac276
+      internalID: -8963128345314638191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_21
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 222
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce240b7f81cdc5f47bf8ac0e863f45dc
+      internalID: 47288187633250385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb0bad28fd8c914a9143ecaacd26f3d
+      internalID: 1975191520704366280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afa0f6cc336ebe4fa3a6e62c5c7a956
+      internalID: 2642093138187841144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_24
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7539720c3517342408dee3f6a1a3045e
+      internalID: -5187666229425611426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba1c714d6e10994396168bdc093c26f
+      internalID: 3783302450401064407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21b6b674ab2fc04e946997c688e681b
+      internalID: 2043869740899146532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_27
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146af0eec1e535841a70d02b2f9ecc78
+      internalID: 8651527817542748241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_28
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60c9cb7c369894a8b9cd5f4d12b0fa
+      internalID: -5972379965546856425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ce2f9051b8b4d4f9d17f82f1aad868
+      internalID: 170527537711746478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31f02bdc85e44b48a9941fd5e924b71
+      internalID: 1537646643814209689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_31
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4e4b19abbf544996de261682e6249
+      internalID: 8533654095552116321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_32
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ed37b64cc7ca41bf3dccecac0fedb
+      internalID: -2138599244197851059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4108bfac9038bea419de52e0b3a97bb4
+      internalID: -4443350349456816834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_34
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc61232593adb24e810d98bfba91fca
+      internalID: 6790717963418365664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_35
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df21ec8156bca489866ef6d185635b
+      internalID: -7451984186296154254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f635180c06938489ca930a1edb438d
+      internalID: 7258689471530334011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_37
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba4eeae12f6cf84d88a91735b85c1b0
+      internalID: 6757565225784534478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_38
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d37a7e03b9e2df42b9cf85101f24d3b
+      internalID: 4877907816048501693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d8ff77966353c4dbcbac630abfc826
+      internalID: -1220432884021022588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_40
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701f4677042df204ebbca3ca52eee24b
+      internalID: 1423121528214009454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_41
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 186
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1a0e3581e6014d958d10aca32bfd8
+      internalID: 8353775027026707934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_42
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 193
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e030ae905332ac4bac48716b26aaa72
+      internalID: 5681664231922946788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 193
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc6bed6cb882834191b8ff5e600f55f
+      internalID: 2116195775042364930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_44
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 193
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e2550e15486234ba221c522419d12d
+      internalID: 341972216457424167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_45
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 193
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a45f406b7c2d4b9dc9f704d3c13da
+      internalID: -2234519612293826846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 152
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f5313c40341e04ab414edf6513fbef
+      internalID: 8101003840832114465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_47
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 152
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9204e84fc5f0ab4fadf9e4581bcf662
+      internalID: 1460682687001783603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_48
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 152
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce0e6278faf5d4b97372288256dcaa
+      internalID: -7070366657731196353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 152
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf5f0c88819b7144a3f3e2c2080de32
+      internalID: -942070155498976338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_50
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365eb2c3e58a8614f867b0bb5f8c66d6
+      internalID: 4486335923651869041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725bc0212d929e74484929fa8eb147d6
+      internalID: 212330403752218420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_52
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 150
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c07a270eff711d44980f926fe0771e4
+      internalID: 7998614872558482634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 150
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b2f0724f43e3f4bbb83842dab4849b
+      internalID: 1224107323699959950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_54
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 151
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d39553d05a5ec46bc2cc76533f670e
+      internalID: -5364882402888490515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_55
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939aef51175809846988bcc6c79a82bf
+      internalID: 6294801667579190455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_56
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade8c5cde9f37441a1a172588fe55a9
+      internalID: 6390045516231404998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b48ddeeab1d2d4409b5411c787f85b2
+      internalID: 1124888760923831568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_58
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1977adb7f8612498821c9bf9f89891
+      internalID: -4466993691949853589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_59
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9e3430fa1c68946b5390edcc46a9b4
+      internalID: 5623268104029263418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_60
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 151
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6da572a42be3043857eaf21cedfa24
+      internalID: 6155204850401862262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 151
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2f73f6190fcd146a8d417020b98066
+      internalID: -6370328643526684489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_62
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 153
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b53dc1d91daf7489f19a5710bcbe50
+      internalID: -7610481086939829538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_63
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 153
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2fd55637b719f47a418985ae44e029
+      internalID: 9077769240739746345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_64
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 152
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0296847bfaea6d41a2f926d97ee682f
+      internalID: -655547968392076454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_65
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 152
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996bc1d954e23654a85182c11bd28e64
+      internalID: 6452584837055174107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_66
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 152
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58b4e1fffe1f324e8b81345057612e4
+      internalID: -5018671902010976364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 152
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2088aaaceb084c6478ae2f45e335faca
+      internalID: -6921310368026262252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_68
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 154
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de65626914564464c92698de5438f335
+      internalID: 4225771017891997799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_69
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 118
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55d82a637e6b0e41bb5bbad766f7070
+      internalID: -4169347040124788838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_70
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 115
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706b1560242739c4aa0b76c68d7ed7ed
+      internalID: -4265706341298235722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_71
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 115
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4c36d8e663c1942a5da23fdd9fd084
+      internalID: -904697929483102887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_72
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 116
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e66d05600479e1419116ad5b9c1d172
+      internalID: -8013864694226104641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_73
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 116
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c760f74731b51f34fb51d81c724530bb
+      internalID: 3539921476327799988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_74
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 115
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e07d771f7bd5c4d82b791ec6bbcb0d
+      internalID: -5494962909366801456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 115
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202ff72139611154b9ff47b80dfba34c
+      internalID: -3028386729070274016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_76
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 115
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2745fc582e2054b9a46deece02c15e
+      internalID: -8627379297798606696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_77
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 115
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c8bff7e10f256419a6d09f8116930f
+      internalID: 941521437880948312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_78
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 116
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228280f85b88ace4fa4608180ce99626
+      internalID: 2475062806157292861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_79
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 116
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763c70aec8f69704b86df63e836c26fc
+      internalID: 8618495414739505748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_80
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 117
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827b2be198415b4da68c8ea8cd268e6
+      internalID: 4046870166178024994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_81
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 117
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae873342f8747944e8b65922d0e8c996
+      internalID: 4021884490564567759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 115
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803c1b9db96c8dd4aaed69c1184b9091
+      internalID: 6584653056991950617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_83
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 115
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680a422c7d48cad4d8c000e5b6ffbf65
+      internalID: 6203007430026147924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_84
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 117
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455dfd7ddbe556542aa19e7f7a03303e
+      internalID: -6496817713954998462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_85
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 117
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813e80889d4d6804a97e286e6d8adb1e
+      internalID: -9004173723285773935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_86
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 117
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9d483f2f326504f90e036d8893af27
+      internalID: 8807459128860390359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_87
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 117
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f1b89acfee9d14b9d3c73f55a39a0b
+      internalID: 121285715460612184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_88
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 82
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e31dad573bad140bbd7ca2da5dfceb
+      internalID: 120534265370729069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_89
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 82
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea615f440e2a0043a51b96fc9f19133
+      internalID: 8827702929732435428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 77
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef5302d869f9e747b9ba02a0fd70a33
+      internalID: 7797299899587540095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_91
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 77
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dcf9200010675d459aa3870b59282aa
+      internalID: -7544348251281290043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_92
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 81
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfcf3232bcc4c6409f261447c76cb54
+      internalID: 6970681842661782688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_93
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 81
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6816a22e033c4b444a49689bfc97283c
+      internalID: 2941862300716613340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_94
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 82
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e2b3a133333a74bb052555d7654a8b
+      internalID: -5217986228760517668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_95
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 82
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d13ff1a8c03ef4aa8a6db1bd9e535e
+      internalID: 8710743953220921643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_96
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 82
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d375bebb87edb4683981e48e423f4d
+      internalID: 8893019859928075828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_97
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 82
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a21dd7a3ee4f0f4581ba72d881e111a
+      internalID: -3613833663160445590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_98
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 82
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dcd4af0a6bcff42a283bf041c01d6c
+      internalID: -6940874726740904273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_99
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 82
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bfac62b0014504cbd3184ba46c21a5
+      internalID: 4322718188625608180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_100
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 84
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e7ceabafaa3a54c989a1dda2c42e34
+      internalID: 3142400949544742863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_101
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bffe46159e9af04c9f558587402b4cf
+      internalID: -5051419434737192297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_102
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f2f67bde2f5254a8fb68abe8bdedac
+      internalID: 7990338893935246889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Octopath Traveler - Father Josef_103
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 46
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ebb8579dd009a4c80cb0cc9c3a6c54
+      internalID: 1939414220229458914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
