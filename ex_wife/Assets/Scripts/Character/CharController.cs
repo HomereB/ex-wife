@@ -13,11 +13,13 @@ public class CharController : MonoBehaviour
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
+    private Transform weapon;
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
+        weapon = transform.Find("Weapon");
         
     }
 
@@ -55,7 +57,7 @@ public class CharController : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().flipX = true;
         }
-        else
+        else //if (Input.GetAxis("Horizontal") > 0.0f)
         {
             this.GetComponent<SpriteRenderer>().flipX = false;
         }
@@ -66,6 +68,7 @@ public class CharController : MonoBehaviour
         if (!isMeta)
         {
             //a changer lorsqu'il visera
+            //weapon.SetActive(true);
             Instantiate(bullet, this.transform.position, Quaternion.identity);
         }
     }
@@ -74,7 +77,7 @@ public class CharController : MonoBehaviour
         progressionBar.text = metamorphe.ToString();
         metamorphe += speedMeta;
 
-        if (metamorphe >= 100.0f)
+        if (metamorphe >= 10.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
