@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2765732434646498693}
   m_Layer: 0
   m_Name: Cyclope
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.24, y: 0.38}
+    oldSize: {x: 0.7058824, y: 1.117647}
     newSize: {x: 0.52, y: 0.41}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -150,7 +150,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2765732434646498693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,13 +164,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
-  speed: 1.5
+  speed: 1
   capacityCooldown: 0
-  maxCapacityCooldown: 3
+  maxCapacityCooldown: 0.5
   target: {fileID: 0}
   anim: {fileID: 384261384142904598}
+  ammoDrop: []
+  dropProbability: 0
   state: 0
   throwingDistance: 3
   attackingDistance: 0.4
-  projectile: {fileID: 0}
+  projectile: {fileID: 7224312845307173992, guid: 969fa808de7359f498d9d77fd57f7b7d,
+    type: 3}
   projectileSpeed: 1
