@@ -13,14 +13,13 @@ public class CharController : MonoBehaviour
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
-    private Transform weapon;
+    private GameObject weapon;
     // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
-        weapon = transform.Find("Weapon");
-        
+        weapon = GameObject.Find("Weapon");
     }
 
     // Update is called once per frame
@@ -68,8 +67,12 @@ public class CharController : MonoBehaviour
         if (!isMeta)
         {
             //a changer lorsqu'il visera
-            //weapon.SetActive(true);
+            
             Instantiate(bullet, this.transform.position, Quaternion.identity);
+        }
+        else
+        {
+            //Debug.Log("Gladiateur");
         }
     }
     void Metamorphose()
