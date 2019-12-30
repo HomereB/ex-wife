@@ -10,6 +10,8 @@ public class Golem : Monster
 
     private void Start()
     {
+        GetComponent<ParticleSystem>().Stop();
+        target = GameObject.FindGameObjectWithTag("Player");
         state = State.chasing;
     }
 

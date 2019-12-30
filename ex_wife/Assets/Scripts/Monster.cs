@@ -17,6 +17,7 @@ public class Monster : Unit
 
     public GameObject[] ammoDrop;
     public int dropProbability; //plus le nombre est grand, moins on a de chance de drop une munition
+
     protected void TakeDamage(float dam)
     {
         Health -= dam;
@@ -30,7 +31,6 @@ public class Monster : Unit
             anim.SetTrigger("Hit");
         }
     }
-
 
     protected void Flip()
     {

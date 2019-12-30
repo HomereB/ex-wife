@@ -11,6 +11,8 @@ public class Minotaur : Monster
 
     private void Start()
     {
+        GetComponent<ParticleSystem>().Stop();
+        target = GameObject.FindGameObjectWithTag("Player");
         state = State.chasing;
     }
 

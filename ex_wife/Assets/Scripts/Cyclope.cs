@@ -13,6 +13,8 @@ public class Cyclope : Monster
 
     private void Start()
     {
+        GetComponent<ParticleSystem>().Stop();
+        target = GameObject.FindGameObjectWithTag("Player");
         state = State.chasing;
     }
 
