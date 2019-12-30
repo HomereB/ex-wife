@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SpawnMonsters : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class SpawnMonsters : MonoBehaviour
     public int[] incrementMonsterPerWaves;
 
     public int waveNumber = 0;
-    public Text txtWave;
-    public Text txtTimeToNewtWave;
+    public TextMeshProUGUI txtWave;
+    public TextMeshProUGUI txtTimeToNewtWave;
     public float timeToNextWave;
     public float initialTimeBetweenWaves;
     public int incrementTimeBetweenWaves;
@@ -26,6 +27,8 @@ public class SpawnMonsters : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        txtWave.text = "Wave " + waveNumber;
+
         timeToNextWave += incrementTimeBetweenWaves;
     }
 
@@ -33,23 +36,20 @@ public class SpawnMonsters : MonoBehaviour
     void Update()
     {
         timeToNextWave -= Time.deltaTime;
-        //txtTimeToNewtWave.text = "Time until next wave : " + ((int)timeToNextWave).ToString();
+        txtTimeToNewtWave.text = "Time until next wave : " + ((int)timeToNextWave).ToString();
 
         if(timeToNextWave <= 0)
         {
-            //txtTimeToNewtWave.color = Color.red;
-            //txtTimeToNewtWave.text = "Monsters spawning!!!";
             IncrementWaveNumber();
             StartCoroutine("SpawnWave");
             timeToNextWave = initialTimeBetweenWaves + waveNumber * incrementTimeBetweenWaves;
-
         }
     }
 
     private void IncrementWaveNumber()
     {
         waveNumber++;
-        //txtWave.text = "Wave " + waveNumber;
+        txtWave.text = "Wave " + waveNumber;
     }
 
 
@@ -63,8 +63,6 @@ public class SpawnMonsters : MonoBehaviour
                 yield return new WaitForSeconds(spawnCooldown);
             }
         }
-
-        //txtTimeToNewtWave.color = Color.black;
 
         for (int i = 0; i < monsterToSpawn.Length; i++)
         {
