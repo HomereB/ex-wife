@@ -8,12 +8,14 @@ public class CharController : MonoBehaviour
     public float speed = 2.0f;
     public float metamorphe = 0.0f;
     public Text progressionBar;
-    public GameObject bullet;
+     public GameObject bullet;
 
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
     private GameObject weapon;
+    private float xAxisStick;
+    private float yAxisStick;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,12 +36,14 @@ public class CharController : MonoBehaviour
         animator.SetFloat("Speed", 0f);
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
+            xAxisStick = Input.GetAxis("Horizontal");
             this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
             Flip();
             animator.SetFloat("Speed", 1.0f);
         }
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
         {
+            yAxisStick = Input.GetAxis("Vertical");
             this.transform.position += new Vector3(0,Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
@@ -68,7 +72,8 @@ public class CharController : MonoBehaviour
         {
             //a changer lorsqu'il visera
             
-            Instantiate(bullet, this.transform.position, Quaternion.identity);
+            GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
+            bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
         }
         else
         {
@@ -80,7 +85,7 @@ public class CharController : MonoBehaviour
         progressionBar.text = metamorphe.ToString();
         metamorphe += speedMeta;
 
-        if (metamorphe >= 10.0f)
+        if (metamorphe >= 100.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
