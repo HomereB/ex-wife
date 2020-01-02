@@ -21,7 +21,8 @@ public class CharController : MonoBehaviour
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
-        weapon = GameObject.Find("Weapon");
+        weapon = transform.Find("Weapon");
+        
     }
 
     // Update is called once per frame
@@ -74,10 +75,6 @@ public class CharController : MonoBehaviour
             
             GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
             bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
-        }
-        else
-        {
-            //Debug.Log("Gladiateur");
         }
     }
     void Metamorphose()
