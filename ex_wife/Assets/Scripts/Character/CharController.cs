@@ -7,25 +7,23 @@ public class CharController : MonoBehaviour
 {
     public float speed = 2.0f;
     public float metamorphe = 0.0f;
-    public Slider slider;
+    public Text progressionBar;
     public GameObject bullet;
 
     private bool isMeta = false;
     private Animator animator;
-    private GameObject weapon;
     private float speedMeta = 0.08f;
-    private float xAxisStick;
-    private float yAxisStick;
-    private 
-
+    private Transform weapon;
+    // Start is called before the first frame update
     void Start()
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
-        weapon = GameObject.Find("Weapon");
+        weapon = transform.Find("Weapon");
         
     }
 
+    // Update is called once per frame
     void Update()
     {
         JoystickCall();
@@ -37,14 +35,12 @@ public class CharController : MonoBehaviour
         animator.SetFloat("Speed", 0f);
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
-            xAxisStick = Input.GetAxis("Horizontal");
             this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
             Flip();
             animator.SetFloat("Speed", 1.0f);
         }
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
         {
-            yAxisStick = Input.GetAxis("Vertical");
             this.transform.position += new Vector3(0,Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
@@ -52,10 +48,6 @@ public class CharController : MonoBehaviour
         {
             animator.SetTrigger("Attack");
             Attack();
-        }
-        if (Input.GetButtonUp("XboxB"))
-        {
-            //take weapons
         }
     }
 
@@ -75,17 +67,17 @@ public class CharController : MonoBehaviour
     {
         if (!isMeta)
         {
-            ShotGunAttack();
-            /*GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
-            bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);*/
+            //a changer lorsqu'il visera
+            //weapon.SetActive(true);
+            Instantiate(bullet, this.transform.position, Quaternion.identity);
         }
     }
     void Metamorphose()
     {
-        slider.value = metamorphe / 100.0f;
+        progressionBar.text = metamorphe.ToString();
         metamorphe += speedMeta;
 
-        if (metamorphe >= 100.0f)
+        if (metamorphe >= 10.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
@@ -95,21 +87,5 @@ public class CharController : MonoBehaviour
                 isMeta = true;
             }
         }
-    }
-
-    void ShotGunAttack()
-    {
-        GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
-        GameObject bulletInstantiate1 = Instantiate(bullet, this.transform.position, Quaternion.identity);
-        GameObject bulletInstantiate2 = Instantiate(bullet, this.transform.position, Quaternion.identity);
-        bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
-        bulletInstantiate1.transform.up = new Vector2(xAxisStick + 0.5f, yAxisStick);
-        bulletInstantiate2.transform.up = new Vector2(xAxisStick - 0.5f, yAxisStick);
-    }
-
-    void ClassicAttack()
-    {
-        GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
-        bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
     }
 }

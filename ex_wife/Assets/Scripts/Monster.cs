@@ -11,47 +11,13 @@ public class Monster : Unit
     public float CapacityCooldown { get => capacityCooldown; set => capacityCooldown = value; }
 
     public GameObject target;
-    protected Vector3 direction;
 
-    public Animator anim;
+    public float damage;
 
     public GameObject[] ammoDrop;
     public int dropProbability; //plus le nombre est grand, moins on a de chance de drop une munition
 
-    protected void TakeDamage(float dam)
-    {
-        Health -= dam;
-        
-        if ( Health <= 0 )
-        {
-            StartCoroutine("Die");
-        }
-        else
-        {
-            anim.SetTrigger("Hit");
-        }
-    }
 
-    protected void Flip()
-    {
-        if (direction.x < 0.0f)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-        }
-    }
-
-    protected IEnumerator Die()
-    {
-        anim.SetTrigger("Dead");
-        yield return new WaitForSeconds(1.4f);
-        SpawnAmmo();
-        yield return new WaitForSeconds(0.1f);
-        Destroy(gameObject);
-    }
 
     protected void SpawnAmmo()
     {
@@ -59,6 +25,21 @@ public class Monster : Unit
         if(ammoType<ammoDrop.Length)
         {
             Instantiate(ammoDrop[ammoType]);
+        }
+    }
+
+    protected override IEnumerator Die()
+    {
+        SpawnAmmo();
+        yield return StartCoroutine(base.Die());
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag=="Player")
+        {
+            collision.gameObject.GetComponent<Unit>().TakeDamage(damage);
         }
     }
 }

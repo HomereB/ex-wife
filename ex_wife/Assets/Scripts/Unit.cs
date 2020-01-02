@@ -16,6 +16,9 @@ public class Unit : MonoBehaviour
     public float Speed { get => speed; set => speed = value; }
     public float MaxHealth { get => maxHealth; set => maxHealth = value; }
 
+    protected Vector3 direction;
+
+    public Animator anim;
 
     public void Heal(float hp)
     {
@@ -25,6 +28,42 @@ public class Unit : MonoBehaviour
         {
             health = maxHealth;
         }
+    }
+
+
+    public void TakeDamage(float dam)
+    {
+        Health -= dam;
+
+        if (Health <= 0)
+        {
+            StartCoroutine("Die");
+        }
+        else
+        {
+            anim.SetTrigger("Hit");
+        }
+    }
+
+    protected void Flip()
+    {
+        if (direction.x < 0.0f)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    protected virtual IEnumerator Die()
+    {
+        anim.SetTrigger("Dead");
+        yield return new WaitForSeconds(1.4f);
+        
+        yield return new WaitForSeconds(0.1f);
+        Destroy(gameObject);
     }
 
     // Start is called before the first frame update

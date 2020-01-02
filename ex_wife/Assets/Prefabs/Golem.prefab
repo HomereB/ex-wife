@@ -121,10 +121,11 @@ MonoBehaviour:
   health: 0
   maxHealth: 0
   speed: 0
+  anim: {fileID: 6204450341770384478}
   capacityCooldown: 0
   maxCapacityCooldown: 0
   target: {fileID: 0}
-  anim: {fileID: 6204450341770384478}
+  damage: 2
   ammoDrop: []
   dropProbability: 0
   state: 0

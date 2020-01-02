@@ -1,7 +1,91 @@
 fileFormatVersion: 2
-guid: 7f4aecb27b1aebb4fa91bff6658bc732
+guid: 8185012ad75f636418fa5c14a31ee007
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1720039849478250843
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_2
+  - first:
+      213: -3983931537824638953
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_3
+  - first:
+      213: -3621801331684186697
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_4
+  - first:
+      213: 9045316961663897249
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_5
+  - first:
+      213: 5070751963903901245
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_6
+  - first:
+      213: -1907995425056970407
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_8
+  - first:
+      213: 5333309163641275624
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_9
+  - first:
+      213: 7971712388124917552
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_10
+  - first:
+      213: 4350023610692437853
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_11
+  - first:
+      213: 640004351031091567
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_13
+  - first:
+      213: -6421924579956887125
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_14
+  - first:
+      213: -2296043079742542565
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_15
+  - first:
+      213: -185386013744301289
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_16
+  - first:
+      213: 7779688505453010147
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_17
+  - first:
+      213: 6148353544596983485
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_18
+  - first:
+      213: -6253538517627815216
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_19
+  - first:
+      213: -8512687049477518424
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_20
+  - first:
+      213: -3683808002210853593
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_21
+  - first:
+      213: 1184523902836827986
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_22
+  - first:
+      213: 6351662057875041399
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_23
+  - first:
+      213: 2107519818879889766
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_24
+  - first:
+      213: 562277762639672890
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_25
+  - first:
+      213: -8666872158195899963
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_26
+  - first:
+      213: -757378783214746693
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_27
+  - first:
+      213: 4359520016336526487
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_28
+  - first:
+      213: -5784325346692143956
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_29
+  - first:
+      213: -808542112944180513
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_30
+  - first:
+      213: 2162251978790794562
+    second: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +124,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +154,609 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2325a70e8f787714882d950b219e7941
+      internalID: -1720039849478250843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e0fc814b250d24fb8ba804c6c993d5
+      internalID: -3983931537824638953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662af472731d826438e429ab571b512d
+      internalID: -3621801331684186697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 387
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1981dcd9cae594bb9da6a5863e432c
+      internalID: 9045316961663897249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 356
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ef13c395daf4d41bb701da734b9b0d
+      internalID: 5070751963903901245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 363
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722912a1659bcae49bc117e8409452c1
+      internalID: -1907995425056970407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 356
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8215cc4629a85794abe5f61c19598c2e
+      internalID: 5333309163641275624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 356
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f163cd6b57116428a8344c6df50b8f
+      internalID: 7971712388124917552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 356
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759827ac246d3564db0a43aaa353592d
+      internalID: 4350023610692437853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 363
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36150491b70ee76489dd52daec50e87e
+      internalID: 640004351031091567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 356
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d200b1f8d59fe4ca851b9cc8f1d734
+      internalID: -6421924579956887125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ee6c0c71de74042bff3b2e6428fa5b
+      internalID: -2296043079742542565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_16
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 318
+        width: 256
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77688b8eef458a04d9769efd7c4c8586
+      internalID: -185386013744301289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f0b677ccac5ab4d923e7bd06471063
+      internalID: 7779688505453010147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79a65bcb3e746540a553aa08b0e7bcd
+      internalID: 6148353544596983485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e598fa4688d8f224c912ce1471ac8474
+      internalID: -6253538517627815216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5db900e87259e248989a8504517f035
+      internalID: -8512687049477518424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cd5a84bfe5cb24a83effc80bfdf48b
+      internalID: -3683808002210853593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_22
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c1143e9cc0f264cb517b1dd872c907
+      internalID: 1184523902836827986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_23
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 350
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94dd5e58f23f1c48a977818a4825654
+      internalID: 6351662057875041399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_24
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 350
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c79f68dbcd0174aa2ed1a1f1132d70
+      internalID: 2107519818879889766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 254
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a0b90c58d14948bf5410baf0c4ae7
+      internalID: 562277762639672890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 286
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aef2d9340713ef4bbc7e4da70c4e5d9
+      internalID: -8666872158195899963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 190
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac62390033a8964f804ebfce2e230bb
+      internalID: -757378783214746693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_28
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 222
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91b4d1244d8eed40b8b38556b167391
+      internalID: 4359520016336526487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_29
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 126
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23601bb3f62e2844b31d0ab87fa06ea
+      internalID: -5784325346692143956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 158
+        width: 256
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e956cfc7b732004282fa55b920c0263
+      internalID: -808542112944180513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Mario RPG Legend of the Seven Stars - Lightning Orb_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 99
+        width: 256
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd6a81df7496304ba03d1f042713aa9
+      internalID: 2162251978790794562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,43 @@
 fileFormatVersion: 2
-guid: cc37dc41af5a6fc4ca1e448210ff8d2f
+guid: 295c76521d9638243b9d36fa5ab5033f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6766127861196792535
+    second: Lightning_strike_0
+  - first:
+      213: 4098310893617366119
+    second: Lightning_strike_1
+  - first:
+      213: -1963816659233458441
+    second: Lightning_strike_2
+  - first:
+      213: -8270448604221196029
+    second: Lightning_strike_3
+  - first:
+      213: 7071462336871194642
+    second: Lightning_strike_4
+  - first:
+      213: 1748082512019164911
+    second: Lightning_strike_5
+  - first:
+      213: 6108894842315199944
+    second: Lightning_strike_6
+  - first:
+      213: -4492166273265125966
+    second: Lightning_strike_10
+  - first:
+      213: -1464566167990111592
+    second: Lightning_strike_11
+  - first:
+      213: -5334932279226375096
+    second: Lightning_strike_7
+  - first:
+      213: 3076307182705772954
+    second: Lightning_strike_8
+  - first:
+      213: 6704303978607604407
+    second: Lightning_strike_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +76,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +106,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Lightning_strike_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 337
+        width: 31
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a427d4fc2609e47a5492a1f8e8832c
+      internalID: -6766127861196792535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 336
+        width: 31
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e13d311d9eb584784c8250dd892dac
+      internalID: 4098310893617366119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 336
+        width: 48
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd178f39b7240841ab3a70c505d6195
+      internalID: -1963816659233458441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 332
+        width: 56
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291546ff07384ed4cb9630c35946fb52
+      internalID: -8270448604221196029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_4
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 333
+        width: 81
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61054eb3d06f9ec4cae502193a1e8ec4
+      internalID: 7071462336871194642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 333
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869efeb6371624b4a918365257fbac69
+      internalID: 1748082512019164911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_6
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 335
+        width: 46
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae01645e86bd0c3418c33654e4c19e7a
+      internalID: 6108894842315199944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 334
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d517023ea1baf488320d7701361cb0
+      internalID: -4492166273265125966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 346
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcca58c197c55014fbfe31d66658bac4
+      internalID: -1464566167990111592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 202
+        width: 142
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a07195c20616f64596cc2e47f8ff562
+      internalID: -5334932279226375096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 202
+        width: 142
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dafafc2c89faed4ab3e3545e2c4fe82
+      internalID: 3076307182705772954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning_strike_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 202
+        width: 142
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1497c5bd84a45444925a8bdeca99289
+      internalID: 6704303978607604407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
