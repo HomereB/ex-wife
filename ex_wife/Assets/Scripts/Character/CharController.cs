@@ -7,8 +7,8 @@ public class CharController : MonoBehaviour
 {
     public float speed = 2.0f;
     public float metamorphe = 0.0f;
-    public Text progressionBar;
-     public GameObject bullet;
+    public Slider slider;
+    public GameObject bullet;
 
     private bool isMeta = false;
     private Animator animator;
@@ -21,7 +21,7 @@ public class CharController : MonoBehaviour
     {
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);
-        weapon = transform.Find("Weapon");
+        weapon = GameObject.Find("Weapon");
         
     }
 
@@ -79,7 +79,7 @@ public class CharController : MonoBehaviour
     }
     void Metamorphose()
     {
-        progressionBar.text = metamorphe.ToString();
+        slider.value = metamorphe / 100.0f;
         metamorphe += speedMeta;
 
         if (metamorphe >= 100.0f)
