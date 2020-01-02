@@ -12,11 +12,12 @@ public class CharController : MonoBehaviour
 
     private bool isMeta = false;
     private Animator animator;
-    private float speedMeta = 0.08f;
     private GameObject weapon;
+    private float speedMeta = 0.08f;
     private float xAxisStick;
     private float yAxisStick;
-    // Start is called before the first frame update
+    private 
+
     void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -25,7 +26,6 @@ public class CharController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         JoystickCall();
@@ -53,6 +53,10 @@ public class CharController : MonoBehaviour
             animator.SetTrigger("Attack");
             Attack();
         }
+        if (Input.GetButtonUp("XboxB"))
+        {
+            //take weapons
+        }
     }
 
     void Flip()
@@ -71,10 +75,9 @@ public class CharController : MonoBehaviour
     {
         if (!isMeta)
         {
-            //a changer lorsqu'il visera
-            
-            GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
-            bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
+            ShotGunAttack();
+            /*GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
+            bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);*/
         }
     }
     void Metamorphose()
@@ -92,5 +95,21 @@ public class CharController : MonoBehaviour
                 isMeta = true;
             }
         }
+    }
+
+    void ShotGunAttack()
+    {
+        GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
+        GameObject bulletInstantiate1 = Instantiate(bullet, this.transform.position, Quaternion.identity);
+        GameObject bulletInstantiate2 = Instantiate(bullet, this.transform.position, Quaternion.identity);
+        bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
+        bulletInstantiate1.transform.up = new Vector2(xAxisStick + 0.5f, yAxisStick);
+        bulletInstantiate2.transform.up = new Vector2(xAxisStick - 0.5f, yAxisStick);
+    }
+
+    void ClassicAttack()
+    {
+        GameObject bulletInstantiate = Instantiate(bullet, this.transform.position, Quaternion.identity);
+        bulletInstantiate.transform.up = new Vector2(xAxisStick, yAxisStick);
     }
 }
