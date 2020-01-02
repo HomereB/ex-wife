@@ -8,9 +8,11 @@ public class Boss : Unit
 
     public float capacityCooldown1;
     public float capacityCooldown2;
+    public float capacityCooldown3;
 
     public float maxCapacityCooldown1;
     public float maxCapacityCooldown2;
+    public float maxCapacityCooldown3;
 
     public GameObject[] attacks;
 
@@ -29,6 +31,7 @@ public class Boss : Unit
                            
     IEnumerator ElekOrbP2;
     IEnumerator ElekOrbP3;
+    IEnumerator ElekOrbP4;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +43,9 @@ public class Boss : Unit
         lightStrkP2 = LightningStrikeAttack(8);
         lightStrkP3 = LightningStrikeAttack(12);
 
-        ElekOrbP2 = ElectricOrbAttack(8,1);
-        ElekOrbP3 = ElectricOrbAttack(16,2);
+        ElekOrbP2 = ElectricOrbAttack(8,1,0,0);
+        ElekOrbP3 = ElectricOrbAttack(16, 1,0,0);
+        ElekOrbP4 = ElectricOrbAttack(16,2,0.5f,5);
     }
 
     // Update is called once per frame
@@ -59,8 +63,9 @@ public class Boss : Unit
                     capacityCooldown1 = maxCapacityCooldown1;
                 }
 
-                if (Health<=MaxHealth*0.66f)
+                if (Health<= MaxHealth * 0.66f)
                 {
+                    capacityCooldown1 = 5;
                     state = State.phase2;
                 }
 
@@ -82,11 +87,16 @@ public class Boss : Unit
                 if (capacityCooldown2 <= 0)
                 {
                     StartCoroutine(ElekOrbP2);
+                    capacityCooldown2 = maxCapacityCooldown2;
+
                 }
 
                 if (Health <= MaxHealth * 0.33f)
                 {
-                    state = State.phase2;
+                    capacityCooldown1 = 5;
+                    capacityCooldown2 = 15;
+
+                    state = State.phase3;
                 }
 
                 break;
@@ -109,6 +119,14 @@ public class Boss : Unit
                     capacityCooldown2 = maxCapacityCooldown2 / 2.0f;
                 }
 
+                capacityCooldown3 -= Time.deltaTime;
+
+                if (capacityCooldown3 <= 0)
+                {
+                    StartCoroutine(ElekOrbP4);
+                    capacityCooldown3 = maxCapacityCooldown3;
+                }
+
                 break;
         }
     }
@@ -125,18 +143,20 @@ public class Boss : Unit
         }
     }
 
-    IEnumerator ElectricOrbAttack(int nbOrbs, int  nbWaves)
+    IEnumerator ElectricOrbAttack(int nbOrbs, int nbWaves, float timeBetweenOrbs, float timeBetweenWaves )
     {
         for (int j = 0; j < nbWaves; j++)
         {
             for (int i = 0; i < nbOrbs; i++)
             {
-                float angle = i * 2 * Mathf.PI / nbOrbs;
+                float angle = 1+(i * 2 * Mathf.PI / nbOrbs);
                 Vector3 orbPos = transform.position + new Vector3(Mathf.Cos(angle) * orbDistanceFromSource, Mathf.Sin(angle) * orbDistanceFromSource, 0);
-                Instantiate(attacks[1], orbPos, Quaternion.identity);
-                yield return new WaitForSeconds(delayBetweenStrikes);
+                GameObject go = Instantiate(attacks[1], orbPos, Quaternion.identity);
+                go.transform.up = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle) , 0);
+                if (timeBetweenOrbs > 0) 
+                yield return new WaitForSeconds(timeBetweenOrbs);
             }
-            yield return new WaitForSeconds(delayBetweenWaves);
+            yield return new WaitForSeconds(timeBetweenWaves);
         }
     }
 
