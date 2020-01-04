@@ -31,7 +31,7 @@ public class Unit : MonoBehaviour
     }
 
 
-    public void TakeDamage(float dam)
+    public virtual void TakeDamage(float dam)
     {
         Health -= dam;
 

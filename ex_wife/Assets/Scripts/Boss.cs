@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class Boss : Unit
 {
@@ -32,6 +35,15 @@ public class Boss : Unit
     IEnumerator ElekOrbP2;
     IEnumerator ElekOrbP3;
     IEnumerator ElekOrbP4;
+
+    //IEnumerator CleanDmgText;
+
+    public SpawnMonsters spwn;
+    public SpriteRenderer SR;
+    public Image healthBar;
+    public TextMeshProUGUI dmgTaken;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,15 +58,22 @@ public class Boss : Unit
         ElekOrbP2 = ElectricOrbAttack(8,1,0,0);
         ElekOrbP3 = ElectricOrbAttack(16, 1,0,0);
         ElekOrbP4 = ElectricOrbAttack(16,2,0.5f,5);
+
+        //CleanDmgText = CleanDamageText();
     }
+
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            TakeDamage(40);
+        }
+
         switch (state)
         {
             case State.phase1:
-
                 capacityCooldown1 -= Time.deltaTime;
 
                 if (capacityCooldown1 <= 0)
@@ -66,6 +85,7 @@ public class Boss : Unit
                 if (Health<= MaxHealth * 0.66f)
                 {
                     capacityCooldown1 = 5;
+                    SR.color = Color.magenta;
                     state = State.phase2;
                 }
 
@@ -95,6 +115,7 @@ public class Boss : Unit
                 {
                     capacityCooldown1 = 5;
                     capacityCooldown2 = 15;
+                    SR.color = Color.red;
 
                     state = State.phase3;
                 }
@@ -131,12 +152,19 @@ public class Boss : Unit
         }
     }
 
+
+    private IEnumerator CleanDamageText()
+    {
+        yield return new WaitForSeconds(3.0f);
+        dmgTaken.text = "";
+    }
+
     IEnumerator LightningStrikeAttack(int nbStrikes)
     {
         for(int i =0 ; i < nbStrikes;i++)
         {
-            float x = Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
-            float y = Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
+            float x = UnityEngine.Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
+            float y = UnityEngine.Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
             Vector3 strikePos = target.transform.position + new Vector3(x, y, 0);
             Instantiate(attacks[0],strikePos,Quaternion.identity);
             yield return new WaitForSeconds(delayBetweenStrikes);
@@ -158,6 +186,32 @@ public class Boss : Unit
             }
             yield return new WaitForSeconds(timeBetweenWaves);
         }
+    }
+
+    public override void  TakeDamage(float dam)
+    {
+        StopCoroutine("CleanDamageText");
+        Health -= dam * spwn.waveNumber;
+        if (Health <= 0)
+        {
+            Health = 0;
+            //StartCoroutine("Die");
+        }
+        else
+        {
+            //anim.SetTrigger("Hit");
+        }
+        Debug.Log(dmgTaken.text);
+        if(dmgTaken.text!="")
+        {
+            dmgTaken.text = (int.Parse(dmgTaken.text) + dam * spwn.waveNumber).ToString();
+        }
+        else
+        {
+            dmgTaken.text = (dam * spwn.waveNumber).ToString();
+        }
+        healthBar.fillAmount = (float)Health / (float)MaxHealth;
+        StartCoroutine("CleanDamageText");
     }
 
     public enum State
