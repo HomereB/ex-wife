@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3461627211563860586}
   - component: {fileID: 3461627211563860589}
   - component: {fileID: 3461627211563860588}
+  - component: {fileID: 1203503969}
   m_Layer: 0
   m_Name: SmallBullet
   m_TagString: Untagged
@@ -214,3 +215,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04411765
+--- !u!114 &1203503969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3461627211563860591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5829df11de5ca4fbde8289f09fd01b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  damage: 2
+  explosionRadius: 0
+  anim: {fileID: 3461627211563860586}
