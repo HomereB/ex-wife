@@ -85,6 +85,7 @@ GameObject:
   - component: {fileID: 8303287758210597366}
   - component: {fileID: 1349023514}
   - component: {fileID: 1349023515}
+  - component: {fileID: 559281886}
   m_Layer: 0
   m_Name: Character 1
   m_TagString: Untagged
@@ -122,7 +123,11 @@ MonoBehaviour:
   speed: 2
   metamorphe: 0
   progressionBar: {fileID: 0}
-  bullet: {fileID: 6225591996774237331, guid: 275b390563f783d438589c959051b399, type: 3}
+  bullet: {fileID: 7687161639644539403, guid: ec0436eafe23ce74b8c46c1c5846eac5, type: 3}
+  smallbullet: {fileID: 3461627211563860591, guid: cba73eb0060d93c40bd378fd0a7d5d04,
+    type: 3}
+  tabMun: 
+  actualIndex: 0
 --- !u!212 &8303287758210597361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -239,3 +244,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!61 &559281886
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8303287758210597365}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.7058824, y: 1.117647}
+    newSize: {x: 0.24, y: 0.38}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7058824, y: 1.117647}
+  m_EdgeRadius: 0
