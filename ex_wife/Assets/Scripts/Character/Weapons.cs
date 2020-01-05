@@ -22,7 +22,7 @@ public class Weapons : MonoBehaviour
     {
         if(collision.gameObject.tag == "Monster")
         {
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Unit>().TakeDamage(damages);
         }
     }
 }
