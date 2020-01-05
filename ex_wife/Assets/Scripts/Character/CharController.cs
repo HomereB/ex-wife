@@ -10,6 +10,7 @@ public class CharController : MonoBehaviour
     public Slider progressionBar;
     public GameObject bullet;
     public GameObject smallbullet;
+    public int[] tabMun;
 
     private bool isMeta = false;
     private Animator animator;
@@ -23,6 +24,7 @@ public class CharController : MonoBehaviour
 
     void Start()
     {
+        tabMun = new int[3]; tabMun[0] = 10000; tabMun[1] = 10; tabMun[2] = 0; 
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);   
     }
@@ -32,6 +34,7 @@ public class CharController : MonoBehaviour
         JoystickCall();
         Metamorphose();
         checkIndex();
+        checkMunition();
     }
 
     void JoystickCall()
@@ -57,12 +60,10 @@ public class CharController : MonoBehaviour
         }
         if (Input.GetButtonUp("scroll"))
         {
-            Debug.Log(" plus ");
             actualIndex++;
         }
         if (Input.GetButtonUp("descroll"))
         {
-            Debug.Log(" moin ");
             actualIndex--;
         }
     }
@@ -98,10 +99,10 @@ public class CharController : MonoBehaviour
     }
     void Metamorphose()
     {
-        progressionBar.value = metamorphe / 100.0f;
+        progressionBar.value = metamorphe / 1000.0f;
         metamorphe += speedMeta;
 
-        if (metamorphe >= 100.0f)
+        if (metamorphe >= 1000.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
@@ -115,6 +116,7 @@ public class CharController : MonoBehaviour
 
     void ShotGunAttack()
     {
+        tabMun[1]--;
         GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
         GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
         GameObject InstantiateBullet2 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
@@ -125,7 +127,7 @@ public class CharController : MonoBehaviour
 
     void BazookaAttack()
     {
-
+        tabMun[1]--;
     }
 
     void ClassicAttack()
@@ -149,6 +151,14 @@ public class CharController : MonoBehaviour
             actualIndex = 1;
         }
         actualIndex = actualIndex % 2;
+    }
+
+    void checkMunition()
+    {
+        if (tabMun[1] < 0 )
+        {
+            actualIndex = 0;
+        }
     }
 }
 
