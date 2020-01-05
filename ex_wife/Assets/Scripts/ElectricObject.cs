@@ -32,7 +32,7 @@ public class ElectricObject : MonoBehaviour
         if(collision.tag == "Player")
         {
             collision.GetComponent<Unit>().TakeDamage(damage);
-            GetComponent<Collider>().enabled = false;
+            //GetComponent<Collider>().enabled = false;
             //Destroy(gameObject);
         }
     }
