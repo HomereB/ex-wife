@@ -66,10 +66,7 @@ public class Boss : Unit
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            TakeDamage(40);
-        }
+
 
         switch (state)
         {
@@ -213,7 +210,6 @@ public class Boss : Unit
         {
             //anim.SetTrigger("Hit");
         }
-        Debug.Log(dmgTaken.text);
         if(dmgTaken.text!="")
         {
             dmgTaken.text = (int.Parse(dmgTaken.text) + dam * spwn.waveNumber).ToString();
@@ -224,6 +220,12 @@ public class Boss : Unit
         }
         healthBar.fillAmount = (float)Health / (float)MaxHealth;
         StartCoroutine("CleanDamageText");
+    }
+
+    public override void Heal(float hp)
+    {
+        base.Heal(hp);
+        healthBar.fillAmount = (float)Health / (float)MaxHealth;
     }
 
     public enum State

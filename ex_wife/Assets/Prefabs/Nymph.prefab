@@ -78,7 +78,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -8757881995905759276, guid: 0d28a01ce61f6f14892f5ee7199e65e1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.16, y: 0.32}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
-  maxHealth: 0
+  maxHealth: 6
   speed: 3
   anim: {fileID: 48861300325456496}
   capacityCooldown: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   - {fileID: 1690205818126173360, guid: 811ecac77cc32054097f8fdee5d2d5bd, type: 3}
   dropProbability: 8
   state: 0
-  healingDistance: 2
+  healingDistance: 4
   healQuantity: 1
   healTarget: {fileID: 0}
 --- !u!95 &48861300325456496
@@ -789,14 +789,14 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 12
     angle: 0
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
-    radiusThickness: 0.1
+    radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0.15, y: -0.46, z: 0}
-    m_Rotation: {x: -90, y: 0, z: 45}
+    m_Position: {x: 0, y: -0.46, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 0.1, y: 0.3, z: 2}
     placementMode: 0
     m_MeshMaterialIndex: 0

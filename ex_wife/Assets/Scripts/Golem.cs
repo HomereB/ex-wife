@@ -10,21 +10,33 @@ public class Golem : Monster
 
     private void Start()
     {
-        //GetComponent<ParticleSystem>().Stop();
         target = GameObject.FindGameObjectWithTag("Player");
         state = State.chasing;
+        anim.SetBool("hasTarget", true);
+
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+
+        if (target != null)
         {
-            TakeDamage(3);
+            direction = target.transform.position - transform.position;
         }
-        direction = target.transform.position - transform.position;
         Flip();
+        Debug.Log(state.ToString());
+
         switch (state)
         {
+            //case State.idle:
+            //    target = GameObject.FindGameObjectWithTag("Player");
+            //    state = State.chasing;
+            //    if (target != null)
+            //    {
+                    
+            //    }
+                //break;
+
             case State.chasing:
                 transform.position += direction.normalized * Speed * Time.deltaTime;
                 if (direction.sqrMagnitude < attackingDistance * attackingDistance)
@@ -33,8 +45,8 @@ public class Golem : Monster
                     state = State.attacking;
                 }
                 break;
-            case State.attacking:
 
+            case State.attacking:
                 break;
         }
     }

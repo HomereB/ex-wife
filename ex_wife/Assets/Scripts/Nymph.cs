@@ -14,30 +14,27 @@ public class Nymph : Monster
     {
         state = State.idle;
         gameObject.GetComponent<ParticleSystem>().Stop();
-
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            TakeDamage(3);
-        }
+
         //capacityCooldown -= Time.deltaTime;
 
-        Flip();
         switch (state)
         {
             case State.idle:
                 SearchTarget();
                 if (healTarget.Health < healTarget.MaxHealth)
                 {
+                    anim.SetBool("hasTarget",true);
                     state = State.chasing;
                 }
                 break;
             case State.chasing:
                 direction = target.transform.position - transform.position;
                 transform.position += direction.normalized * Speed * Time.deltaTime;
+
                 if (direction.sqrMagnitude < healingDistance * healingDistance)
                 {
                     anim.SetTrigger("Heal");
@@ -49,10 +46,11 @@ public class Nymph : Monster
                 }
                 break;
             case State.healing:
-                gameObject.GetComponent<Unit>().Heal(healQuantity);
+                healTarget.Heal(healQuantity);
                 if (healTarget.Health >= healTarget.MaxHealth)
                 {
-                    anim.SetTrigger("Heal");
+                    anim.SetBool("hasTarget", false);
+                    healTarget.Health = healTarget.MaxHealth;
                     gameObject.GetComponent<ParticleSystem>().Stop();
                     healTarget.GetComponent<ParticleSystem>().Stop();
                     state = State.idle;
@@ -60,6 +58,8 @@ public class Nymph : Monster
                 }
                 break;
         }
+        Flip();
+
     }
 
     private void SearchTarget()
