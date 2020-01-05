@@ -1,0 +1,2719 @@
+fileFormatVersion: 2
+guid: 8b410e8e4f867c7429ba27ddc290defd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1176441009776027064
+    second: PC Computer - Titan Souls - Overworld_0
+  - first:
+      213: 5074849584074796103
+    second: PC Computer - Titan Souls - Overworld_1
+  - first:
+      213: -3801408536244327987
+    second: PC Computer - Titan Souls - Overworld_2
+  - first:
+      213: 9071542110732264931
+    second: PC Computer - Titan Souls - Overworld_3
+  - first:
+      213: 3935161785591729518
+    second: PC Computer - Titan Souls - Overworld_4
+  - first:
+      213: -3618730783378097272
+    second: PC Computer - Titan Souls - Overworld_5
+  - first:
+      213: -649206248152712830
+    second: PC Computer - Titan Souls - Overworld_6
+  - first:
+      213: -2144453311813078315
+    second: PC Computer - Titan Souls - Overworld_7
+  - first:
+      213: -6738543225807885369
+    second: PC Computer - Titan Souls - Overworld_8
+  - first:
+      213: -6877294734937737575
+    second: PC Computer - Titan Souls - Overworld_9
+  - first:
+      213: 2102861739945186740
+    second: PC Computer - Titan Souls - Overworld_10
+  - first:
+      213: 7898467516924206117
+    second: PC Computer - Titan Souls - Overworld_11
+  - first:
+      213: -2003244952113276563
+    second: PC Computer - Titan Souls - Overworld_12
+  - first:
+      213: -6577614111513751301
+    second: PC Computer - Titan Souls - Overworld_13
+  - first:
+      213: 8851796076496515115
+    second: PC Computer - Titan Souls - Overworld_14
+  - first:
+      213: 6706416705254320254
+    second: PC Computer - Titan Souls - Overworld_15
+  - first:
+      213: -8906225440087473821
+    second: PC Computer - Titan Souls - Overworld_16
+  - first:
+      213: -5513437051734574836
+    second: PC Computer - Titan Souls - Overworld_17
+  - first:
+      213: 7992158872020480832
+    second: PC Computer - Titan Souls - Overworld_18
+  - first:
+      213: 8375086460563829358
+    second: PC Computer - Titan Souls - Overworld_19
+  - first:
+      213: -1488439996580983588
+    second: PC Computer - Titan Souls - Overworld_20
+  - first:
+      213: -78474579688139490
+    second: PC Computer - Titan Souls - Overworld_21
+  - first:
+      213: 8531262815165073689
+    second: PC Computer - Titan Souls - Overworld_22
+  - first:
+      213: -8376444096209652006
+    second: PC Computer - Titan Souls - Overworld_23
+  - first:
+      213: 5049730705019160182
+    second: PC Computer - Titan Souls - Overworld_24
+  - first:
+      213: 2630001673369731369
+    second: PC Computer - Titan Souls - Overworld_25
+  - first:
+      213: 2815060988768721671
+    second: PC Computer - Titan Souls - Overworld_26
+  - first:
+      213: -7737231668935646365
+    second: PC Computer - Titan Souls - Overworld_27
+  - first:
+      213: -4282672391497734756
+    second: PC Computer - Titan Souls - Overworld_28
+  - first:
+      213: -3668333164390732766
+    second: PC Computer - Titan Souls - Overworld_29
+  - first:
+      213: -5926849835619232066
+    second: PC Computer - Titan Souls - Overworld_30
+  - first:
+      213: 8857457738247831893
+    second: PC Computer - Titan Souls - Overworld_31
+  - first:
+      213: -198618951541271419
+    second: PC Computer - Titan Souls - Overworld_32
+  - first:
+      213: -1241451346034389539
+    second: PC Computer - Titan Souls - Overworld_33
+  - first:
+      213: -4699484145039500799
+    second: PC Computer - Titan Souls - Overworld_34
+  - first:
+      213: 2922664719929840339
+    second: PC Computer - Titan Souls - Overworld_35
+  - first:
+      213: -8576941223276967520
+    second: PC Computer - Titan Souls - Overworld_36
+  - first:
+      213: -786697917861136418
+    second: PC Computer - Titan Souls - Overworld_37
+  - first:
+      213: -6398581488100712491
+    second: PC Computer - Titan Souls - Overworld_38
+  - first:
+      213: 1584559388332755264
+    second: PC Computer - Titan Souls - Overworld_39
+  - first:
+      213: -6349516768817302805
+    second: PC Computer - Titan Souls - Overworld_40
+  - first:
+      213: -5188717534164679669
+    second: PC Computer - Titan Souls - Overworld_41
+  - first:
+      213: 6000417754530305174
+    second: PC Computer - Titan Souls - Overworld_42
+  - first:
+      213: -6273984101606988180
+    second: PC Computer - Titan Souls - Overworld_43
+  - first:
+      213: 7176763457055644900
+    second: PC Computer - Titan Souls - Overworld_44
+  - first:
+      213: -7044082225929975719
+    second: PC Computer - Titan Souls - Overworld_45
+  - first:
+      213: 4448590254141016885
+    second: PC Computer - Titan Souls - Overworld_46
+  - first:
+      213: -2495870261618616375
+    second: PC Computer - Titan Souls - Overworld_47
+  - first:
+      213: -5790854931721982311
+    second: PC Computer - Titan Souls - Overworld_48
+  - first:
+      213: 8752971611218028204
+    second: PC Computer - Titan Souls - Overworld_49
+  - first:
+      213: -5966326958254257662
+    second: PC Computer - Titan Souls - Overworld_50
+  - first:
+      213: 7539649587641306657
+    second: PC Computer - Titan Souls - Overworld_51
+  - first:
+      213: -540141639429925726
+    second: PC Computer - Titan Souls - Overworld_52
+  - first:
+      213: -7789911624588647762
+    second: PC Computer - Titan Souls - Overworld_53
+  - first:
+      213: -1548644139067486591
+    second: PC Computer - Titan Souls - Overworld_54
+  - first:
+      213: -4483648007881577163
+    second: PC Computer - Titan Souls - Overworld_55
+  - first:
+      213: 838754188432493729
+    second: PC Computer - Titan Souls - Overworld_56
+  - first:
+      213: -266186065198861138
+    second: PC Computer - Titan Souls - Overworld_57
+  - first:
+      213: 2613143689404380318
+    second: PC Computer - Titan Souls - Overworld_58
+  - first:
+      213: -7864534208534832035
+    second: PC Computer - Titan Souls - Overworld_59
+  - first:
+      213: -4068640039818158607
+    second: PC Computer - Titan Souls - Overworld_60
+  - first:
+      213: 6842877431889613322
+    second: PC Computer - Titan Souls - Overworld_61
+  - first:
+      213: 2841663594009037849
+    second: PC Computer - Titan Souls - Overworld_62
+  - first:
+      213: -671986371817812670
+    second: PC Computer - Titan Souls - Overworld_63
+  - first:
+      213: 6781330807622386404
+    second: PC Computer - Titan Souls - Overworld_64
+  - first:
+      213: -1923158970512217958
+    second: PC Computer - Titan Souls - Overworld_65
+  - first:
+      213: 697143033649223201
+    second: PC Computer - Titan Souls - Overworld_66
+  - first:
+      213: -6963550482877333730
+    second: PC Computer - Titan Souls - Overworld_67
+  - first:
+      213: 1498866546143103705
+    second: PC Computer - Titan Souls - Overworld_68
+  - first:
+      213: -7047288682652914758
+    second: PC Computer - Titan Souls - Overworld_69
+  - first:
+      213: 9220235159680675625
+    second: PC Computer - Titan Souls - Overworld_70
+  - first:
+      213: 6825736139585824256
+    second: PC Computer - Titan Souls - Overworld_71
+  - first:
+      213: 6232086268999175668
+    second: PC Computer - Titan Souls - Overworld_72
+  - first:
+      213: 1523772503451957177
+    second: PC Computer - Titan Souls - Overworld_73
+  - first:
+      213: 2176045379995841358
+    second: PC Computer - Titan Souls - Overworld_74
+  - first:
+      213: -3369619083866474831
+    second: PC Computer - Titan Souls - Overworld_75
+  - first:
+      213: 8337734546606947812
+    second: PC Computer - Titan Souls - Overworld_76
+  - first:
+      213: 906472993215754173
+    second: PC Computer - Titan Souls - Overworld_77
+  - first:
+      213: 5444659166902525084
+    second: PC Computer - Titan Souls - Overworld_78
+  - first:
+      213: 5393125521084948774
+    second: PC Computer - Titan Souls - Overworld_79
+  - first:
+      213: 8534782708550943896
+    second: PC Computer - Titan Souls - Overworld_80
+  - first:
+      213: 2290670932813217001
+    second: PC Computer - Titan Souls - Overworld_81
+  - first:
+      213: -1098399922112713017
+    second: PC Computer - Titan Souls - Overworld_82
+  - first:
+      213: -4495288525844036274
+    second: PC Computer - Titan Souls - Overworld_83
+  - first:
+      213: 5787773864327035281
+    second: PC Computer - Titan Souls - Overworld_84
+  - first:
+      213: -8662932042531797707
+    second: PC Computer - Titan Souls - Overworld_85
+  - first:
+      213: -3914648561053228390
+    second: PC Computer - Titan Souls - Overworld_86
+  - first:
+      213: -1472268087021003255
+    second: PC Computer - Titan Souls - Overworld_87
+  - first:
+      213: 4750787418332921556
+    second: PC Computer - Titan Souls - Overworld_88
+  - first:
+      213: -2021457914359081887
+    second: PC Computer - Titan Souls - Overworld_89
+  - first:
+      213: 6825093541202187904
+    second: PC Computer - Titan Souls - Overworld_90
+  - first:
+      213: -2085960636306348607
+    second: PC Computer - Titan Souls - Overworld_91
+  - first:
+      213: -8410120141423975813
+    second: PC Computer - Titan Souls - Overworld_92
+  - first:
+      213: -3487933760093388986
+    second: PC Computer - Titan Souls - Overworld_93
+  - first:
+      213: -5424646362507135926
+    second: PC Computer - Titan Souls - Overworld_94
+  - first:
+      213: 8326130556206687974
+    second: PC Computer - Titan Souls - Overworld_95
+  - first:
+      213: -1892289250852078998
+    second: PC Computer - Titan Souls - Overworld_96
+  - first:
+      213: 8417039129704876240
+    second: PC Computer - Titan Souls - Overworld_97
+  - first:
+      213: -7242408897331285874
+    second: PC Computer - Titan Souls - Overworld_98
+  - first:
+      213: 1973510090948250394
+    second: PC Computer - Titan Souls - Overworld_99
+  - first:
+      213: -7773609528756458504
+    second: PC Computer - Titan Souls - Overworld_100
+  - first:
+      213: -8863961650222776450
+    second: PC Computer - Titan Souls - Overworld_101
+  - first:
+      213: -5109220038995560586
+    second: PC Computer - Titan Souls - Overworld_102
+  - first:
+      213: 4381431771004858666
+    second: PC Computer - Titan Souls - Overworld_103
+  - first:
+      213: -5959378160414602815
+    second: PC Computer - Titan Souls - Overworld_105
+  - first:
+      213: 2867934003416486338
+    second: PC Computer - Titan Souls - Overworld_106
+  - first:
+      213: 3615800608608439217
+    second: PC Computer - Titan Souls - Overworld_107
+  - first:
+      213: 497359550660571027
+    second: PC Computer - Titan Souls - Overworld_108
+  - first:
+      213: 6853641039441038122
+    second: PC Computer - Titan Souls - Overworld_104
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9b88eb5b976794582a6dada0d227e8
+      internalID: -1176441009776027064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254b291a64590ce43b8ddc8716d16fdc
+      internalID: 5074849584074796103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44745270b34356944adbf7994d4bbaee
+      internalID: -3801408536244327987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678391609afdbe47b86523df5a82a62
+      internalID: 9071542110732264931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7a69bd6cb6c794cb897d1a460cb61f
+      internalID: 3935161785591729518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5d0632b293ea47b8abf13f3a93ce4
+      internalID: -3618730783378097272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a51761bc6b8d48b894e3be0ac11c9
+      internalID: -649206248152712830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b966f5b04b12bde4c862029f725ec772
+      internalID: -2144453311813078315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f682fc5c6b119646a7a40fa2498161d
+      internalID: -6738543225807885369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_9
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5597efe2be422c479dd0a355778da28
+      internalID: -6877294734937737575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee74ed4a25effe4b8e0c1d3bb9a0612
+      internalID: 2102861739945186740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3178e3b83081a564dab3101cdaa4bd1d
+      internalID: 7898467516924206117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00660196ec5591841bf256bec1eb0924
+      internalID: -2003244952113276563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 816
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cdea742d2d19f44879ae32a0ccb45d
+      internalID: -6577614111513751301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 784
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e19faa6d1e685342a1dfd86ff45f39e
+      internalID: 8851796076496515115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0b5ba175d645746a2b37b2318fb4e6
+      internalID: 6706416705254320254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266ff6f0b9badd24a9d766daa71e1910
+      internalID: -8906225440087473821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ab6445719ea3846879260fb39ced95
+      internalID: -5513437051734574836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf6ab0e1011774982cbc22cc7c4489
+      internalID: 7992158872020480832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d74a7479694d1342ae7cc0717b56e07
+      internalID: 8375086460563829358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef45608d4ca462498ad061fe9c52e55
+      internalID: -1488439996580983588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aabb4481a3857f47aede60a75d43fe6
+      internalID: -78474579688139490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca5e54888f7ef24bb6cc41bc5fef38b
+      internalID: 8531262815165073689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354ccf40a49e6dd40b64d75f270643c7
+      internalID: -8376444096209652006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e68721fd9667cb458e3de3c9e003e5c
+      internalID: 5049730705019160182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692fc50c36dc7244180a56b600cde8ba
+      internalID: 2630001673369731369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3607621e6e037a48941e0692162a55c
+      internalID: 2815060988768721671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94708b165753d8d409e05d1f2b794886
+      internalID: -7737231668935646365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 848
+        width: 84
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eb02f60b998e0449c975b21bdb12f9
+      internalID: -4282672391497734756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa941eff2455eb84198b801fb1ffdfec
+      internalID: -3668333164390732766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f7f16637c48a74e9ba293ef92bb4cc
+      internalID: -5926849835619232066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 816
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc3c917a182c28489772cab4a6108c7
+      internalID: 8857457738247831893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a4ff9b6b0dfea49963d0d4f710d7c1
+      internalID: -198618951541271419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a1b284347a37e4eafbc0021dac1cda
+      internalID: -1241451346034389539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d767f9a461f81af4bbeda0f319fd2928
+      internalID: -4699484145039500799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2133dca11daf1354ebe2dce29d17623b
+      internalID: 2922664719929840339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fdfae072abbd64d96eb1d30ba19156
+      internalID: -8576941223276967520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c9b65d57898d14ba8e0637629b1f47
+      internalID: -786697917861136418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1008
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f658c184eccf04b8caabdadbbc7658
+      internalID: -6398581488100712491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1008
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f8f377029f88447bef0dc08c85fd54
+      internalID: 1584559388332755264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1008
+        width: 80
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacc99e82e0e87f46b921e823fe46c1d
+      internalID: -6349516768817302805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6ac80ad91c028498744fde62228310
+      internalID: -5188717534164679669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcbe07834f08174fa601779c7cd80e4
+      internalID: 6000417754530305174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8529466d43d1c4d94df5e00ab8fa71
+      internalID: -6273984101606988180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bff40460e27c624a85d7b2ad030149b
+      internalID: 7176763457055644900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fb89a4c1254bc4fbc8e5ef28ec8333
+      internalID: -7044082225929975719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10756da59ce09ad4ebceb5cc0015faa7
+      internalID: 4448590254141016885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 944
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496144c4b580acf4ba1e9225bf129aa6
+      internalID: -2495870261618616375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 944
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a78d7550b10ca04b90d914e6bdf95f7
+      internalID: -5790854931721982311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 944
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47de5ec5ee38f08468a929b01366e0c0
+      internalID: 8752971611218028204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 944
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17ec8e90a5641d49ad05bfbbde9cadc
+      internalID: -5966326958254257662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 944
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cedf5ca326a7254791075e34776af3d
+      internalID: 7539649587641306657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 944
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74e91e7ae8b91e40b533c029e1d2cc8
+      internalID: -540141639429925726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2afdeac6d71f344ad41a1fb0829464
+      internalID: -7789911624588647762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbd3620cf759de41a8a4da8ea4d0510
+      internalID: -1548644139067486591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5289de87efcf7964cb26297eaa9c156f
+      internalID: -4483648007881577163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa0d66d11521f418ad0ade4553b5b5
+      internalID: 838754188432493729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd6fe4a5b1df14991117fdfe288d02
+      internalID: -266186065198861138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709f2fab2d981bf4babfec59d87980f2
+      internalID: 2613143689404380318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93af358898cbdd46b133e5d893dc70e
+      internalID: -7864534208534832035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_60
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56212f1d3fa7348a03536952e01171
+      internalID: -4068640039818158607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bc5359c56757e498bcd3eddd4aa38c
+      internalID: 6842877431889613322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273bc971421c4c8409c108553d4f2b5b
+      internalID: 2841663594009037849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab448f26d1a0234e9c8e0956707aae9
+      internalID: -671986371817812670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7212b45d097dcd546af9ef3ff8824bed
+      internalID: 6781330807622386404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9c93ec04be9e746b4f80adb2d02552
+      internalID: -1923158970512217958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1721ca5af8bc80409d7c061b9da0890
+      internalID: 697143033649223201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_67
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f5f2966d592b043a81fbed04ba5707
+      internalID: -6963550482877333730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff32327712bf70243839ef6185bc4d22
+      internalID: 1498866546143103705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_69
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d3d7c59b0c31043b2dd9020ff0915e
+      internalID: -7047288682652914758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_70
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054fe2556f3e37e4ebdae2bae1892366
+      internalID: 9220235159680675625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10582a36fd31ec242bf2553321a4dec9
+      internalID: 6825736139585824256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273e34f45bd0324e91cd7aab3a38afe
+      internalID: 6232086268999175668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b870a8eb7533ed24abeb30a4131a9a12
+      internalID: 1523772503451957177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e039fe47d62eb418bc70ed79302fbb
+      internalID: 2176045379995841358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_75
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb31fe500162514cb80d14f3c3bf647
+      internalID: -3369619083866474831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1008
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfb3e3f22d10b341975b3fe40527b8f
+      internalID: 8337734546606947812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1aa3cb9b7e0c844804ffa625e37b02
+      internalID: 906472993215754173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 976
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad63b50f7b2510143b37955236b3ae1f
+      internalID: 5444659166902525084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 976
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69db0d509908f54bbc746044cbec0c8
+      internalID: 5393125521084948774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f317153161c24e887c3e490e8e3a7
+      internalID: 8534782708550943896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 960
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18b8b4622b73a849a46eab257808699
+      internalID: 2290670932813217001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437e177bb984d204c96ed874fd527fb8
+      internalID: -1098399922112713017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_83
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 960
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c21ca91ae16e3140b75dd26ea0186f6
+      internalID: -4495288525844036274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55c5c87047294e49b66251aac6b9f02
+      internalID: 5787773864327035281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb82975f73e3404c8e951bc2b694a0f
+      internalID: -8662932042531797707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69000d2a65ffe641accedc8226ae8d5
+      internalID: -3914648561053228390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_87
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee13e646f320c8f459a61074f8632a5f
+      internalID: -1472268087021003255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436d93d405a035140abc9c7e1e942df9
+      internalID: 4750787418332921556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18e19ae9e59db64ca0b7b42d56ec881
+      internalID: -2021457914359081887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_90
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabd20285300c1a449636b0a883bf6d8
+      internalID: 6825093541202187904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_91
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb81f845f7071f45b613efcc6cfeeee
+      internalID: -2085960636306348607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 48
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b1ac5ee3f8964297891eab569f9c5
+      internalID: -8410120141423975813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_93
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 304
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e8cd1b0b1688440897224924dfa577
+      internalID: -3487933760093388986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_94
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846a6efe0048de41967f1ad934bb085
+      internalID: -5424646362507135926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_95
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 816
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9758b4fd2adce74c96f11bf4427ead6
+      internalID: 8326130556206687974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_96
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 864
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb799e0b301e914a99eed73ffba64b5
+      internalID: -1892289250852078998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_97
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 640
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f50aaab1120d145a91b01ffc8f88c6
+      internalID: 8417039129704876240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 784
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5123dd147e97c4393db4ddf85545ec
+      internalID: -7242408897331285874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_99
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 784
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11df6ea9756fc140b6f9a183b7411b9
+      internalID: 1973510090948250394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_100
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 784
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a679e288583b3f441a4f7618bac51863
+      internalID: -7773609528756458504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_101
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 784
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa19901cb4a47b54d9dd129a5bc6de84
+      internalID: -8863961650222776450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_102
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 112
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc7282c1840254bbc93c6807cd1157
+      internalID: -5109220038995560586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_103
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 848
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94a0528fb27559458874d850bb257d2
+      internalID: 4381431771004858666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_105
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 848
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263000646d420fd4eb5b9c6ff76c06d3
+      internalID: -5959378160414602815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_106
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55bd1e41ba332d48a500c6b6496b719
+      internalID: 2867934003416486338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 848
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a752cddab953247a3b2b37729d9f43
+      internalID: 3615800608608439217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_108
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3560bb6b980ab40bc9a5e4270e0929
+      internalID: 497359550660571027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Titan Souls - Overworld_104
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 912
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90b5080e56d25478676412ced2a846
+      internalID: 6853641039441038122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
