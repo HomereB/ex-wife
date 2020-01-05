@@ -116,12 +116,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9b1cc2acfd66de4cb36145dbd0949b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
+  health: 10
   maxHealth: 0
-  speed: 0
+  speed: 5
   anim: {fileID: 6204450341770384478}
-  capacityCooldown: 0
-  maxCapacityCooldown: 0
+  capacityCooldown: 4
+  maxCapacityCooldown: 5
   target: {fileID: 0}
   damage: 2
   ammoDrop:
@@ -131,7 +131,7 @@ MonoBehaviour:
   - {fileID: 1690205818126173360, guid: 811ecac77cc32054097f8fdee5d2d5bd, type: 3}
   dropProbability: 40
   state: 0
-  attackingDistance: 0
+  attackingDistance: 0.4
 --- !u!61 &3651898852079346154
 BoxCollider2D:
   m_ObjectHideFlags: 0
