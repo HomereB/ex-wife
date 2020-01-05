@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharController : MonoBehaviour
+public class CharController : Unit
 {
-    public float speed = 2.0f;
     public float metamorphe = 0.0f;
     public Slider progressionBar;
     public GameObject bullet;
     public GameObject smallbullet;
     public int[] tabMun;
+    public List<Image> selectWeapon;
+    public List<TextMeshProUGUI> MunitionsUI;
+    public Slider HP;
+    public TextMeshProUGUI HPnb;
 
     private bool isMeta = false;
     private Animator animator;
@@ -35,6 +39,9 @@ public class CharController : MonoBehaviour
         Metamorphose();
         checkIndex();
         checkMunition();
+        UpdateUI();
+
+
     }
 
     void JoystickCall()
@@ -42,7 +49,7 @@ public class CharController : MonoBehaviour
         animator.SetFloat("Speed", 0f);
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
-            this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
+            this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * 2.0f * Time.deltaTime;
             xAxisJoystick = Input.GetAxis("Horizontal");
             Flip();
             animator.SetFloat("Speed", 1.0f);
@@ -50,7 +57,7 @@ public class CharController : MonoBehaviour
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
         {
             yAxisJoystick = Input.GetAxis("Vertical");
-            this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
+            this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * 2.0f * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
         if (Input.GetButtonUp("XboxA"))
@@ -99,10 +106,10 @@ public class CharController : MonoBehaviour
     }
     void Metamorphose()
     {
-        progressionBar.value = metamorphe / 1000.0f;
+        progressionBar.value = metamorphe / 500.0f;
         metamorphe += speedMeta;
 
-        if (metamorphe >= 1000.0f)
+        if (metamorphe >= 500.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
@@ -155,10 +162,25 @@ public class CharController : MonoBehaviour
 
     void checkMunition()
     {
-        if (tabMun[1] < 0 )
+        if (tabMun[1] <= 0 )
         {
             actualIndex = 0;
         }
+    }
+
+    void UpdateUI()
+    {
+        foreach(Image i in selectWeapon)
+        {
+            i.color = Color.white;
+        }
+        selectWeapon[actualIndex].color = Color.green;
+
+        MunitionsUI[0].text = tabMun[1].ToString();
+        MunitionsUI[1].text = tabMun[2].ToString();
+
+        HP.value = Health / MaxHealth;
+        HPnb.text = Health.ToString();
     }
 }
 
