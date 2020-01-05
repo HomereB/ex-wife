@@ -9,27 +9,29 @@ public class CharController : MonoBehaviour
     public float metamorphe = 0.0f;
     public Slider progressionBar;
     public GameObject bullet;
+    public GameObject smallbullet;
 
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
-    private Transform weapon;
     private float xAxisJoystick = 0.0f;
     private float yAxisJoystick = 0.0f;
-    // Start is called before the first frame update
+    private bool shotgun = false;
+    private bool bazooka = false;
+
+    public int actualIndex = 0;
+
     void Start()
     {
         animator = this.GetComponent<Animator>();
-        animator.SetFloat("Speed", 0f);
-        weapon = transform.Find("Weapon");
-        
+        animator.SetFloat("Speed", 0f);   
     }
 
-    // Update is called once per frame
     void Update()
     {
         JoystickCall();
         Metamorphose();
+        checkIndex();
     }
 
     void JoystickCall()
@@ -53,6 +55,16 @@ public class CharController : MonoBehaviour
             animator.SetTrigger("Attack");
             Attack();
         }
+        if (Input.GetButtonUp("scroll"))
+        {
+            Debug.Log(" plus ");
+            actualIndex++;
+        }
+        if (Input.GetButtonUp("descroll"))
+        {
+            Debug.Log(" moin ");
+            actualIndex--;
+        }
     }
 
     void Flip()
@@ -71,11 +83,17 @@ public class CharController : MonoBehaviour
     {
         if (!isMeta)
         {
-            //a changer lorsqu'il visera
-            //weapon.SetActive(true);
-            GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
-            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick,0);
-            //InstantiateBullet.transform.Rotate(new Vector3(0, 0, 1), 90.0f);
+            switch (actualIndex)
+            {
+                case 0:
+                    ClassicAttack();
+                    break;
+                case 1:
+                    ShotGunAttack();
+                    break;
+                default:
+                    break;
+            }
         }
     }
     void Metamorphose()
@@ -94,4 +112,43 @@ public class CharController : MonoBehaviour
             }
         }
     }
+
+    void ShotGunAttack()
+    {
+        GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+        GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+        GameObject InstantiateBullet2 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+        InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+        InstantiateBullet1.transform.right = new Vector3(xAxisJoystick + 0.15f, yAxisJoystick + 0.15f, 0);
+        InstantiateBullet2.transform.right = new Vector3(xAxisJoystick - 0.15f, yAxisJoystick - 0.15f, 0);
+    }
+
+    void BazookaAttack()
+    {
+
+    }
+
+    void ClassicAttack()
+    {
+        GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
+        InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "ShotGun")
+        {
+            shotgun = true;
+            Destroy(collision.gameObject);
+        }
+    }
+    void checkIndex()
+    {
+        if (actualIndex < 0)
+        {
+            actualIndex = 1;
+        }
+        actualIndex = actualIndex % 2;
+    }
 }
+

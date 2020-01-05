@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3461627211563860586}
   - component: {fileID: 3461627211563860589}
   - component: {fileID: 3461627211563860588}
-  - component: {fileID: 1203503969}
+  - component: {fileID: 1998256116522436470}
   m_Layer: 0
   m_Name: SmallBullet
   m_TagString: Untagged
@@ -215,7 +215,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.04411765
---- !u!114 &1203503969
+--- !u!114 &1998256116522436470
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -228,6 +228,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 2
+  damage: 0
   explosionRadius: 0
   anim: {fileID: 3461627211563860586}
