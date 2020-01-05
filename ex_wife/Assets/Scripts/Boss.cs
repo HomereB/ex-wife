@@ -47,6 +47,8 @@ public class Boss : Unit
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<ParticleSystem>().Stop();
+
         capacityCooldown1 = maxCapacityCooldown1;
         capacityCooldown2 = maxCapacityCooldown2;
         target = target = GameObject.FindGameObjectWithTag("Player");
@@ -58,8 +60,6 @@ public class Boss : Unit
         ElekOrbP2 = ElectricOrbAttack(8,1,0,0);
         ElekOrbP3 = ElectricOrbAttack(16, 1,0,0);
         ElekOrbP4 = ElectricOrbAttack(16,2,0.5f,5);
-
-        //CleanDmgText = CleanDamageText();
     }
 
 

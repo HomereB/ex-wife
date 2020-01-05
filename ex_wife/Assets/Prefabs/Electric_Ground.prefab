@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 2
   spawn: {fileID: 0}
-  timeBeforeDestruction: 0
+  timeBeforeDestruction: 10
 --- !u!58 &321327793210221723
 CircleCollider2D:
   m_ObjectHideFlags: 0

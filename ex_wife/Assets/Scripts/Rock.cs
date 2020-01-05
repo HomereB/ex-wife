@@ -6,6 +6,8 @@ public class Rock : MonoBehaviour
 {
     public float activeTime;
     public float destructionTime;
+    public float speedMultiplier;
+    public float damage;
     public Vector3 velocity;
 
     // Start is called before the first frame update
@@ -18,7 +20,7 @@ public class Rock : MonoBehaviour
     void Update()
     {
         transform.position += velocity * Time.deltaTime;
-        velocity *= 0.99f;
+        velocity *= speedMultiplier;
     }
 
     IEnumerator DestroyAfterTime()
@@ -28,7 +30,15 @@ public class Rock : MonoBehaviour
         gameObject.GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(destructionTime);
         Destroy(gameObject);
+    }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            StopAllCoroutines();
+            collision.gameObject.GetComponent<Unit>().TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 }

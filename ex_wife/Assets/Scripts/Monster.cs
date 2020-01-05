@@ -31,8 +31,7 @@ public class Monster : Unit
     protected override IEnumerator Die()
     {
         SpawnAmmo();
-        yield return StartCoroutine(base.Die());
-        
+        yield return StartCoroutine(base.Die());        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
