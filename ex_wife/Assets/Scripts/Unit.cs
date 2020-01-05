@@ -20,7 +20,7 @@ public class Unit : MonoBehaviour
 
     public Animator anim;
 
-    public void Heal(float hp)
+    public virtual void Heal(float hp)
     {
         health += hp;
 

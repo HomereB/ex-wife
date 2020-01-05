@@ -24,15 +24,14 @@ public class Monster : Unit
         int ammoType = UnityEngine.Random.Range(0,ammoDrop.Length+dropProbability);
         if(ammoType<ammoDrop.Length)
         {
-            Instantiate(ammoDrop[ammoType]);
+            Instantiate(ammoDrop[ammoType], transform.position,Quaternion.identity);
         }
     }
 
     protected override IEnumerator Die()
     {
         SpawnAmmo();
-        yield return StartCoroutine(base.Die());
-        
+        yield return StartCoroutine(base.Die());        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

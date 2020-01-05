@@ -7,12 +7,14 @@ public class Nymph : Monster
 {
     public State state;
     public float healingDistance;
-    public int healQuantity;
-    public Monster healTarget;
+    public float healQuantity;
+    public Unit healTarget;
 
     private void Start()
     {
         state = State.idle;
+        gameObject.GetComponent<ParticleSystem>().Stop();
+
     }
 
     private void Update()
@@ -21,20 +23,25 @@ public class Nymph : Monster
         {
             TakeDamage(3);
         }
-        capacityCooldown -= Time.deltaTime;
-        direction = target.transform.position - transform.position;
+        //capacityCooldown -= Time.deltaTime;
+
         Flip();
         switch (state)
         {
             case State.idle:
                 SearchTarget();
+                if (healTarget.Health < healTarget.MaxHealth)
+                {
+                    state = State.chasing;
+                }
                 break;
             case State.chasing:
+                direction = target.transform.position - transform.position;
                 transform.position += direction.normalized * Speed * Time.deltaTime;
                 if (direction.sqrMagnitude < healingDistance * healingDistance)
                 {
                     anim.SetTrigger("Heal");
-                    healTarget = target.GetComponent<Monster>();
+                    healTarget = target.GetComponent<Unit>();
                     gameObject.GetComponent<ParticleSystem>().Play();
                     healTarget.GetComponent<ParticleSystem>().Play();
                     state = State.healing;
@@ -42,14 +49,13 @@ public class Nymph : Monster
                 }
                 break;
             case State.healing:
-                gameObject.GetComponent<Monster>().Heal(healQuantity);
-                if (healTarget.Health >= MaxHealth)
+                gameObject.GetComponent<Unit>().Heal(healQuantity);
+                if (healTarget.Health >= healTarget.MaxHealth)
                 {
                     anim.SetTrigger("Heal");
                     gameObject.GetComponent<ParticleSystem>().Stop();
                     healTarget.GetComponent<ParticleSystem>().Stop();
-                    //search for target
-                    state = State.chasing;
+                    state = State.idle;
                     break;
                 }
                 break;
@@ -58,7 +64,8 @@ public class Nymph : Monster
 
     private void SearchTarget()
     {
-        throw new NotImplementedException();
+        target = GameObject.FindGameObjectWithTag("Boss");
+        healTarget = target.GetComponent<Unit>();
     }
 
     public enum State
