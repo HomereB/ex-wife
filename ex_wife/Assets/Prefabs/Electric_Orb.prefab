@@ -115,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7433198111009702852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7b1d318cffa94449bade2469b8909d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e56233ade26a1c4c9738025bb9e9ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
@@ -146,13 +146,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7433198111009702852}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5445276702ada4408bd04ba42749655, type: 3}
+  m_Script: {fileID: 11500000, guid: 82b6df25c5098644ba0cd603e2d96fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angle: 45
+  angle: 90
   initialSpeed: 0.1
   speedMultiplicator: 1.1
-  maxSpeed: 2
+  maxSpeed: 3
 --- !u!1 &7433198111311446122
 GameObject:
   m_ObjectHideFlags: 0

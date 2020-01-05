@@ -128,9 +128,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7808176521758933453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7b1d318cffa94449bade2469b8909d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e56233ade26a1c4c9738025bb9e9ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 3
-  spawn: {fileID: 321327793210221726, guid: 691e3420280931a40935b1a95a1e0faa, type: 3}
-  timeBeforeDestruction: 3
+  spawn: {fileID: 321327793210221726, guid: 97c11b2f1f6cb6944b702c1468b3f54e, type: 3}
+  timeBeforeDestruction: 10

@@ -78,6 +78,8 @@ public class Boss : Unit
 
                 if (capacityCooldown1 <= 0)
                 {
+                    lightStrkP1 = LightningStrikeAttack(4);
+
                     StartCoroutine(lightStrkP1);
                     capacityCooldown1 = maxCapacityCooldown1;
                 }
@@ -97,6 +99,8 @@ public class Boss : Unit
 
                 if (capacityCooldown1 <= 0)
                 {
+                    lightStrkP2 = LightningStrikeAttack(8);
+
                     StartCoroutine(lightStrkP2);
                     capacityCooldown1 = maxCapacityCooldown1 / 2.0f;
 
@@ -106,6 +110,8 @@ public class Boss : Unit
 
                 if (capacityCooldown2 <= 0)
                 {
+                    ElekOrbP2 = ElectricOrbAttack(8, 1, 0, 0);
+
                     StartCoroutine(ElekOrbP2);
                     capacityCooldown2 = maxCapacityCooldown2;
 
@@ -128,6 +134,9 @@ public class Boss : Unit
 
                 if (capacityCooldown1 <= 0)
                 {
+                    lightStrkP3 = LightningStrikeAttack(12);
+
+
                     StartCoroutine(lightStrkP3);
                     capacityCooldown1 = maxCapacityCooldown1 / 3.0f;
                 }
@@ -136,6 +145,8 @@ public class Boss : Unit
 
                 if (capacityCooldown2 <= 0)
                 {
+                    ElekOrbP3 = ElectricOrbAttack(16, 1, 0, 0);
+
                     StartCoroutine(ElekOrbP3);
                     capacityCooldown2 = maxCapacityCooldown2 / 2.0f;
                 }
@@ -144,6 +155,7 @@ public class Boss : Unit
 
                 if (capacityCooldown3 <= 0)
                 {
+                    ElekOrbP4 = ElectricOrbAttack(16, 2, 0.5f, 5);
                     StartCoroutine(ElekOrbP4);
                     capacityCooldown3 = maxCapacityCooldown3;
                 }
