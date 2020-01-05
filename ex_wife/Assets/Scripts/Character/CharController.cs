@@ -19,6 +19,8 @@ public class CharController : MonoBehaviour
     private bool shotgun = false;
     private bool bazooka = false;
 
+    public int actualIndex = 0;
+
     void Start()
     {
         animator = this.GetComponent<Animator>();
@@ -29,6 +31,7 @@ public class CharController : MonoBehaviour
     {
         JoystickCall();
         Metamorphose();
+        checkIndex();
     }
 
     void JoystickCall()
@@ -52,6 +55,16 @@ public class CharController : MonoBehaviour
             animator.SetTrigger("Attack");
             Attack();
         }
+        if (Input.GetButtonUp("scroll"))
+        {
+            Debug.Log(" plus ");
+            actualIndex++;
+        }
+        if (Input.GetButtonUp("descroll"))
+        {
+            Debug.Log(" moin ");
+            actualIndex--;
+        }
     }
 
     void Flip()
@@ -70,12 +83,17 @@ public class CharController : MonoBehaviour
     {
         if (!isMeta)
         {
-            if (shotgun)
-                ShotGunAttack();
-            else if (bazooka)
-                BazookaAttack();
-            else
-                ClassicAttack();
+            switch (actualIndex)
+            {
+                case 0:
+                    ClassicAttack();
+                    break;
+                case 1:
+                    ShotGunAttack();
+                    break;
+                default:
+                    break;
+            }
         }
     }
     void Metamorphose()
@@ -124,4 +142,13 @@ public class CharController : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    void checkIndex()
+    {
+        if (actualIndex < 0)
+        {
+            actualIndex = 1;
+        }
+        actualIndex = actualIndex % 2;
+    }
 }
+
