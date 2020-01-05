@@ -74,7 +74,8 @@ public class CharController : MonoBehaviour
             //a changer lorsqu'il visera
             //weapon.SetActive(true);
             GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
-            InstantiateBullet.transform.up = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick,0);
+            //InstantiateBullet.transform.Rotate(new Vector3(0, 0, 1), 90.0f);
         }
     }
     void Metamorphose()
