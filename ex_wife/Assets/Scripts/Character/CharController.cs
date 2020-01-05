@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CharController : Unit
 {
-    public float metamorphe = 0.0f;
-    public Slider progressionBar;
     public GameObject bullet;
     public GameObject smallbullet;
-    public int[] tabMun;
+    public GameObject Bazookabullet;
+    public GameObject gameOverPanel;
+
     public List<Image> selectWeapon;
     public List<TextMeshProUGUI> MunitionsUI;
     public Slider HP;
+    public Slider progressionBar;
     public TextMeshProUGUI HPnb;
+    public int[] tabMun;
 
+    private float metamorphe = 0.0f;
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
@@ -23,8 +27,8 @@ public class CharController : Unit
     private float yAxisJoystick = 0.0f;
     private bool shotgun = false;
     private bool bazooka = false;
-
-    public int actualIndex = 0;
+    private int actualIndex = 0;
+    private bool gameover = false;
 
     void Start()
     {
@@ -38,10 +42,8 @@ public class CharController : Unit
         JoystickCall();
         Metamorphose();
         checkIndex();
-        checkMunition();
         UpdateUI();
-
-
+        GameOver();
     }
 
     void JoystickCall()
@@ -73,6 +75,13 @@ public class CharController : Unit
         {
             actualIndex--;
         }
+        if (gameover)
+        {
+            if (Input.GetButtonUp("Start"))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+        }
     }
 
     void Flip()
@@ -99,6 +108,9 @@ public class CharController : Unit
                 case 1:
                     ShotGunAttack();
                     break;
+                case 2:
+                    BazookaAttack();
+                    break;
                 default:
                     break;
             }
@@ -106,10 +118,10 @@ public class CharController : Unit
     }
     void Metamorphose()
     {
-        progressionBar.value = metamorphe / 500.0f;
+        progressionBar.value = metamorphe / 100.0f;
         metamorphe += speedMeta;
 
-        if (metamorphe >= 500.0f)
+        if (metamorphe >= 100.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
@@ -123,18 +135,26 @@ public class CharController : Unit
 
     void ShotGunAttack()
     {
-        tabMun[1]--;
-        GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
-        GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
-        GameObject InstantiateBullet2 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
-        InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
-        InstantiateBullet1.transform.right = new Vector3(xAxisJoystick + 0.15f, yAxisJoystick + 0.15f, 0);
-        InstantiateBullet2.transform.right = new Vector3(xAxisJoystick - 0.15f, yAxisJoystick - 0.15f, 0);
+        if (tabMun[1] > 0)
+        {
+            tabMun[1]--;
+            GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+            GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+            GameObject InstantiateBullet2 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+            InstantiateBullet1.transform.right = new Vector3(xAxisJoystick + 0.15f, yAxisJoystick + 0.15f, 0);
+            InstantiateBullet2.transform.right = new Vector3(xAxisJoystick - 0.15f, yAxisJoystick - 0.15f, 0);
+        }
     }
 
     void BazookaAttack()
     {
-        tabMun[1]--;
+        if (tabMun[2] > 0)
+        {
+            GameObject InstantiateBullet = Instantiate(Bazookabullet, this.transform.position, Quaternion.identity);
+            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+            tabMun[2]--;
+        }
     }
 
     void ClassicAttack()
@@ -157,15 +177,7 @@ public class CharController : Unit
         {
             actualIndex = 1;
         }
-        actualIndex = actualIndex % 2;
-    }
-
-    void checkMunition()
-    {
-        if (tabMun[1] <= 0 )
-        {
-            actualIndex = 0;
-        }
+        actualIndex = actualIndex % 3;
     }
 
     void UpdateUI()
@@ -181,6 +193,17 @@ public class CharController : Unit
 
         HP.value = Health / MaxHealth;
         HPnb.text = Health.ToString();
+    }
+
+    void GameOver()
+    {
+        if (Health <= 0)
+        {
+            gameover = true;
+            Time.timeScale = 0;
+            gameOverPanel.SetActive(true);
+            
+        }
     }
 }
 

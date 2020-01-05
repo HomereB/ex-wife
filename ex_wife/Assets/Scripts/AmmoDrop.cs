@@ -11,7 +11,7 @@ public class AmmoDrop : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            //collision.gameObject.GetComponent<CharController>().tabMun[ammoToRefill] += amountToRefill;
+            collision.gameObject.GetComponent<CharController>().tabMun[ammoToRefill] += amountToRefill;
             Destroy(gameObject);
         }
     }
