@@ -24,7 +24,7 @@ public class Monster : Unit
         int ammoType = UnityEngine.Random.Range(0,ammoDrop.Length+dropProbability);
         if(ammoType<ammoDrop.Length)
         {
-            Instantiate(ammoDrop[ammoType]);
+            Instantiate(ammoDrop[ammoType], transform.position,Quaternion.identity);
         }
     }
 
