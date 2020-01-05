@@ -7026,12 +7026,12 @@ PrefabInstance:
     - target: {fileID: 48861300325456500, guid: 59f94e747bb9d4b489587952f8ebde00,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.21
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 48861300325456500, guid: 59f94e747bb9d4b489587952f8ebde00,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.52
+      value: 6.76
       objectReference: {fileID: 0}
     - target: {fileID: 48861300325456500, guid: 59f94e747bb9d4b489587952f8ebde00,
         type: 3}
@@ -7083,6 +7083,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 48861300325456503, guid: 59f94e747bb9d4b489587952f8ebde00,
+        type: 3}
+      propertyPath: healingDistance
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 48861300325456458, guid: 59f94e747bb9d4b489587952f8ebde00,
         type: 3}
       propertyPath: ShapeModule.type
@@ -7106,7 +7111,12 @@ PrefabInstance:
     - target: {fileID: 48861300325456458, guid: 59f94e747bb9d4b489587952f8ebde00,
         type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 48861300325456501, guid: 59f94e747bb9d4b489587952f8ebde00,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59f94e747bb9d4b489587952f8ebde00, type: 3}

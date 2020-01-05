@@ -226,6 +226,12 @@ public class Boss : Unit
         StartCoroutine("CleanDamageText");
     }
 
+    public override void Heal(float hp)
+    {
+        base.Heal(hp);
+        healthBar.fillAmount = (float)Health / (float)MaxHealth;
+    }
+
     public enum State
     {
         phase1,
