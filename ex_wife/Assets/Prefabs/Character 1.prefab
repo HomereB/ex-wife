@@ -204,13 +204,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3921fb882c551eb4c895a872d305069f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
   speed: 2
+  anim: {fileID: 8303287758210597366}
   metamorphe: 0
   progressionBar: {fileID: 0}
   bullet: {fileID: 7687161639644539403, guid: ec0436eafe23ce74b8c46c1c5846eac5, type: 3}
   smallbullet: {fileID: 3461627211563860591, guid: cba73eb0060d93c40bd378fd0a7d5d04,
     type: 3}
   tabMun: 
+  selectWeapon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  MunitionsUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  HP: {fileID: 0}
+  HPnb: {fileID: 0}
   actualIndex: 0
 --- !u!212 &8303287758210597361
 SpriteRenderer:
@@ -250,7 +262,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4400762545873030342, guid: 5f42bbd0d591013408ab8d43b22d38a5,
+  m_Sprite: {fileID: -8298335142436343970, guid: c27ab3392e4465643880ff9174986d8c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -298,7 +310,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7058824, y: 1.117647}
+    oldSize: {x: 0.5588235, y: 0.85294116}
     newSize: {x: 0.24, y: 0.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -345,7 +357,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7058824, y: 1.117647}
+    oldSize: {x: 0.5588235, y: 0.85294116}
     newSize: {x: 0.24, y: 0.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -634,29 +634,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
         type: 3}
-      propertyPath: selectWeapon.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
-        type: 3}
-      propertyPath: MunitionsUI.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
-        type: 3}
       propertyPath: progressionBar
       value: 
       objectReference: {fileID: 935605622}
     - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
         type: 3}
-      propertyPath: selectWeapon.Array.data[1]
-      value: 
-      objectReference: {fileID: 1456347139}
-    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
-        type: 3}
       propertyPath: selectWeapon.Array.data[0]
       value: 
       objectReference: {fileID: 1324618441}
+    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
+        type: 3}
+      propertyPath: selectWeapon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1456347139}
     - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
         type: 3}
       propertyPath: selectWeapon.Array.data[2]
@@ -674,16 +664,6 @@ PrefabInstance:
       objectReference: {fileID: 1338285999}
     - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
         type: 3}
-      propertyPath: health
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
-        type: 3}
-      propertyPath: maxHealth
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303287758210597367, guid: b841e8df0bd588742822aba5b16438dd,
-        type: 3}
       propertyPath: HP
       value: 
       objectReference: {fileID: 1169378210}
@@ -692,10 +672,6 @@ PrefabInstance:
       propertyPath: HPnb
       value: 
       objectReference: {fileID: 1158241506}
-    - target: {fileID: 1349023514, guid: b841e8df0bd588742822aba5b16438dd, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b841e8df0bd588742822aba5b16438dd, type: 3}
 --- !u!1 &276952780
@@ -5949,12 +5925,12 @@ PrefabInstance:
     - target: {fileID: 7808176521758933449, guid: e5ad5aae5c21b74459ee4a694f984854,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.208091
+      value: -12.89
       objectReference: {fileID: 0}
     - target: {fileID: 7808176521758933449, guid: e5ad5aae5c21b74459ee4a694f984854,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7583253
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 7808176521758933449, guid: e5ad5aae5c21b74459ee4a694f984854,
         type: 3}
@@ -5999,6 +5975,11 @@ PrefabInstance:
     - target: {fileID: 7808176521758933449, guid: e5ad5aae5c21b74459ee4a694f984854,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2201716872534014626, guid: e5ad5aae5c21b74459ee4a694f984854,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8573,6 +8554,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cyclope
       objectReference: {fileID: 0}
+    - target: {fileID: 384261384142904592, guid: e0d715cb02bce0749b221e6c21e54022,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 384261384142904596, guid: e0d715cb02bce0749b221e6c21e54022,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8641,6 +8627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Minotaur
+      objectReference: {fileID: 0}
+    - target: {fileID: 2791588470147549197, guid: b01610741d9336448817f16a3a0df955,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2791588470147549193, guid: b01610741d9336448817f16a3a0df955,
         type: 3}
@@ -8849,6 +8840,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Golem
       objectReference: {fileID: 0}
+    - target: {fileID: 6204450341770384477, guid: f9cb4cdacf07e3b44b2211cb05cf3f74,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6204450341770384448, guid: f9cb4cdacf07e3b44b2211cb05cf3f74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8903,6 +8899,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987784952827606630, guid: f9cb4cdacf07e3b44b2211cb05cf3f74,
+        type: 3}
+      propertyPath: attackingDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987784952827606630, guid: f9cb4cdacf07e3b44b2211cb05cf3f74,
+        type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3651898852079346154, guid: f9cb4cdacf07e3b44b2211cb05cf3f74,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.7058824
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9cb4cdacf07e3b44b2211cb05cf3f74, type: 3}

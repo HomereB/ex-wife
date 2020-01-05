@@ -27,13 +27,13 @@ public class ElectricObject : MonoBehaviour
         Instantiate(spawn,transform.position,Quaternion.identity);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if(collision.tag == "Player")
         {
-            collision.gameObject.GetComponent<Unit>().TakeDamage(damage);
+            collision.GetComponent<Unit>().TakeDamage(damage);
             GetComponent<Collider>().enabled = false;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }
