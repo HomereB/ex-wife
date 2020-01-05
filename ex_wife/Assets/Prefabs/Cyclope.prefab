@@ -164,11 +164,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
-  maxHealth: 0
+  maxHealth: 6
   speed: 1
   anim: {fileID: 384261384142904598}
   capacityCooldown: 0
-  maxCapacityCooldown: 0.5
+  maxCapacityCooldown: 3
   target: {fileID: 0}
   damage: 3
   ammoDrop:
@@ -179,7 +179,7 @@ MonoBehaviour:
   dropProbability: 16
   state: 0
   throwingDistance: 3
-  attackingDistance: 0.4
+  attackingDistance: 0.7
   projectile: {fileID: 7224312845307173992, guid: 969fa808de7359f498d9d77fd57f7b7d,
     type: 3}
-  projectileSpeed: 1
+  projectileSpeed: 5

@@ -18,10 +18,7 @@ public class Nymph : Monster
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            TakeDamage(3);
-        }
+
         //capacityCooldown -= Time.deltaTime;
 
         switch (state)

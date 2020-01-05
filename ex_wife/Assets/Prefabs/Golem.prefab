@@ -76,7 +76,7 @@ SpriteRenderer:
   m_Sprite: {fileID: -6929718203139395206, guid: 6865491531c317847ac27dfd4168f1c6,
     type: 3}
   m_Color: {r: 0.9811321, g: 0.6247775, b: 0.6247775, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.27, y: 0.35}
@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  maxHealth: 0
-  speed: 5
+  maxHealth: 10
+  speed: 2
   anim: {fileID: 6204450341770384478}
   capacityCooldown: 4
   maxCapacityCooldown: 5
