@@ -479,9 +479,10 @@ GameObject:
   - component: {fileID: 465464992}
   - component: {fileID: 465464994}
   - component: {fileID: 465464993}
+  - component: {fileID: 465464995}
   m_Layer: 0
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -505,7 +506,7 @@ MonoBehaviour:
   - {fileID: 48861300325456497, guid: 59f94e747bb9d4b489587952f8ebde00, type: 3}
   nbMonstersToSpawn: 1400000004000000fcfffffff4ffffff
   incrementMonsterPerWaves: 0a000000040000000200000002000000
-  waveNumber: 0
+  waveNumber: 1
   txtWave: {fileID: 1270350922}
   txtTimeToNewtWave: {fileID: 131553238}
   timeToNextWave: 0
@@ -638,6 +639,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &465464995
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465464989}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &505752316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2429,12 +2451,12 @@ PrefabInstance:
     - target: {fileID: 3461627211563860584, guid: cba73eb0060d93c40bd378fd0a7d5d04,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.612
+      value: -6.47
       objectReference: {fileID: 0}
     - target: {fileID: 3461627211563860584, guid: cba73eb0060d93c40bd378fd0a7d5d04,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.002
+      value: -1.614305
       objectReference: {fileID: 0}
     - target: {fileID: 3461627211563860584, guid: cba73eb0060d93c40bd378fd0a7d5d04,
         type: 3}
@@ -2572,12 +2594,12 @@ PrefabInstance:
     - target: {fileID: 7687161639644539404, guid: ec0436eafe23ce74b8c46c1c5846eac5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.907
+      value: -6.765
       objectReference: {fileID: 0}
     - target: {fileID: 7687161639644539404, guid: ec0436eafe23ce74b8c46c1c5846eac5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.355
+      value: -1.967305
       objectReference: {fileID: 0}
     - target: {fileID: 7687161639644539404, guid: ec0436eafe23ce74b8c46c1c5846eac5,
         type: 3}
@@ -2624,11 +2646,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7687161639644539401, guid: ec0436eafe23ce74b8c46c1c5846eac5,
-        type: 3}
-      propertyPath: m_Autodestruct
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec0436eafe23ce74b8c46c1c5846eac5, type: 3}
 --- !u!1001 &7696337231703385928
@@ -2646,12 +2663,12 @@ PrefabInstance:
     - target: {fileID: 7696337229901837294, guid: 8a8a133df72983c4c92e1da9d450aaba,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.349
+      value: -6.207
       objectReference: {fileID: 0}
     - target: {fileID: 7696337229901837294, guid: 8a8a133df72983c4c92e1da9d450aaba,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.621695
+      value: -2.234
       objectReference: {fileID: 0}
     - target: {fileID: 7696337229901837294, guid: 8a8a133df72983c4c92e1da9d450aaba,
         type: 3}
