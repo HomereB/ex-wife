@@ -7,13 +7,15 @@ public class CharController : MonoBehaviour
 {
     public float speed = 2.0f;
     public float metamorphe = 0.0f;
-    public Text progressionBar;
+    public Slider progressionBar;
     public GameObject bullet;
 
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
     private Transform weapon;
+    private float xAxisJoystick = 0.0f;
+    private float yAxisJoystick = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,12 +38,14 @@ public class CharController : MonoBehaviour
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
             this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * speed * Time.deltaTime;
+            xAxisJoystick = Input.GetAxis("Horizontal");
             Flip();
             animator.SetFloat("Speed", 1.0f);
         }
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
         {
-            this.transform.position += new Vector3(0,Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
+            yAxisJoystick = Input.GetAxis("Vertical");
+            this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * speed * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
         if (Input.GetButtonUp("XboxA"))
@@ -69,15 +73,16 @@ public class CharController : MonoBehaviour
         {
             //a changer lorsqu'il visera
             //weapon.SetActive(true);
-            Instantiate(bullet, this.transform.position, Quaternion.identity);
+            GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
+            InstantiateBullet.transform.up = new Vector3(xAxisJoystick, yAxisJoystick, 0);
         }
     }
     void Metamorphose()
     {
-        progressionBar.text = metamorphe.ToString();
+        progressionBar.value = metamorphe / 100.0f;
         metamorphe += speedMeta;
 
-        if (metamorphe >= 10.0f)
+        if (metamorphe >= 100.0f)
         {
             speedMeta = 0.0f;
             if (!isMeta)
