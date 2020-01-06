@@ -6,10 +6,10 @@ public class Camera_position : MonoBehaviour
 {
     private GameObject player;
 
-    public float minX;
+    public float minX = -12;
     public float maxX;
     public float minY;
-    public float maxY;
+    public float maxY = 14;
     // Start is called before the first frame update
     void Start()
     {
