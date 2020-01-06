@@ -149,10 +149,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82b6df25c5098644ba0cd603e2d96fc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angle: 90
+  angle: 45
   initialSpeed: 0.1
-  speedMultiplicator: 1.1
-  maxSpeed: 3
+  speedMultiplicator: 1.5
+  maxSpeed: 10
 --- !u!1 &7433198111311446122
 GameObject:
   m_ObjectHideFlags: 0
