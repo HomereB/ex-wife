@@ -23,7 +23,6 @@ public class CharController : Unit
     public int[] tabMun;
 
     [Header("Sounds Settings")]
-    public AudioSource musicSource;
     public List<AudioClip> bulletsSound;
 
     private float metamorphe = 0.1f;
@@ -151,8 +150,8 @@ public class CharController : Unit
     {
         if (tabMun[1] > 0)
         {
-            musicSource.clip = bulletsSound[1];
-            musicSource.Play();
+            audioSource.clip = bulletsSound[1];
+            audioSource.Play();
             metamorphe++;
             tabMun[1]--;
             GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
@@ -168,8 +167,8 @@ public class CharController : Unit
     {
         if (tabMun[2] > 0)
         {
-            musicSource.clip = bulletsSound[2];
-            musicSource.Play();
+            audioSource.clip = bulletsSound[2];
+            audioSource.Play();
             metamorphe += 10.0f;
             GameObject InstantiateBullet = Instantiate(Bazookabullet, this.transform.position, Quaternion.identity);
             InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
@@ -179,8 +178,8 @@ public class CharController : Unit
 
     void ClassicAttack()
     {
-        musicSource.clip = bulletsSound[0];
-        musicSource.Play();
+        audioSource.clip = bulletsSound[0];
+        audioSource.Play();
         metamorphe += 0.5f;
         GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
         InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
@@ -224,10 +223,19 @@ public class CharController : Unit
         {
             gameover = true;
             //Time.timeScale = 0;
-            this.gameObject.SetActive(false);
+            //this.gameObject.SetActive(false);
             gameOverPanel.SetActive(true);
             
         }
+    }
+
+    protected virtual IEnumerator Die()
+    {
+        //anim.SetTrigger("Dead");
+        yield return new WaitForSeconds(1.4f);
+
+        yield return new WaitForSeconds(0.1f);
+        //Destroy(gameObject);
     }
 }
 

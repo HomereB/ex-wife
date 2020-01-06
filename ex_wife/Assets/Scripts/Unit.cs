@@ -17,6 +17,7 @@ public class Unit : MonoBehaviour
     public float MaxHealth { get => maxHealth; set => maxHealth = value; }
 
     public AudioClip hitSound, DeadSound;
+    public AudioSource audioSource;
 
     protected Vector3 direction;
 
@@ -39,11 +40,12 @@ public class Unit : MonoBehaviour
 
         if (Health <= 0)
         {
-            
+            audioSource.clip = DeadSound; audioSource.Play();
             StartCoroutine("Die");
         }
         else
         {
+            audioSource.clip = hitSound; audioSource.Play();
             anim.SetTrigger("Hit");
         }
     }
