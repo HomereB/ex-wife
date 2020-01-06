@@ -31,7 +31,7 @@ public class CharController : Unit
     private float metamorphe = 0.1f;
     private bool isMeta = false;
     private Animator animator;
-    private float speedMeta = 0.08f;
+    private float speedMeta = 0.7f;
     private float xAxisJoystick = 0.0f;
     private float yAxisJoystick = 0.0f;
     private float xAxisJoystickRight = 0.0f;
@@ -162,6 +162,7 @@ public class CharController : Unit
             
             if (!isMeta)
             {
+                gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 //change du poids du layer pour changer le layer
                 animator.SetLayerWeight(1, 1);
                 isMeta = true;
@@ -178,6 +179,7 @@ public class CharController : Unit
             if (metamorphe <= 0.0f)
             {
                 speedMeta = 0.0f;
+                gameObject.GetComponent<BoxCollider2D>().enabled = true;
                 animator.SetLayerWeight(1, 0);
                 isMeta = false;
             }
