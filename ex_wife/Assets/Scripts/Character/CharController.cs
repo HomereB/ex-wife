@@ -36,8 +36,6 @@ public class CharController : Unit
     private float yAxisJoystick = 0.0f;
     private float xAxisJoystickRight = 0.0f;
     private float yAxisJoystickRight = 0.0f;
-    private bool shotgun = false;
-    private bool bazooka = false;
     private int actualIndex = 0;
     private bool gameover = false;
     private bool hasAttacked = false;
@@ -165,6 +163,7 @@ public class CharController : Unit
                 gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 //change du poids du layer pour changer le layer
                 animator.SetLayerWeight(1, 1);
+                speedMeta = 0.7f;
                 isMeta = true;
             }
         }
@@ -227,15 +226,6 @@ public class CharController : Unit
         metamorphe += 0.5f;
         GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
         InstantiateBullet.transform.right = new Vector3(xAxisJoystickRight, -yAxisJoystickRight, 0);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "ShotGun")
-        {
-            shotgun = true;
-            Destroy(collision.gameObject);
-        }
     }
     void checkIndex()
     {
