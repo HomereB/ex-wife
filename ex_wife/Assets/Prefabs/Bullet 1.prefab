@@ -232,3 +232,4 @@ MonoBehaviour:
   damage: 3
   explosionRadius: 0.1
   anim: {fileID: 7687161639644539406}
+  timeToDestroy: 1

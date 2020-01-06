@@ -10,9 +10,14 @@ public class Bullet : MonoBehaviour
     public float explosionRadius;
     public Animator anim;
     bool targetHit = false;
+    public float timeToDestroy;
+
+    IEnumerator blub;
+
     void Start()
     {
-        
+        blub = DestroyAfterTime(timeToDestroy);
+        StartCoroutine(blub);
     }
 
     // Update is called once per frame
@@ -28,6 +33,7 @@ public class Bullet : MonoBehaviour
     {
         if(collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Boss")
         {
+            StopAllCoroutines();
             targetHit = true;
             anim.enabled = true;
             GetComponent<Collider2D>().enabled = false;
@@ -43,5 +49,18 @@ public class Bullet : MonoBehaviour
     private void DestroyObject()
     {
         Destroy(gameObject);
+    }
+
+    IEnumerator DestroyAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        targetHit = true;
+        anim.enabled = true;
+        GetComponent<Collider2D>().enabled = false;
+        Collider2D[] hitMonsters = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
+        foreach (Collider2D col in hitMonsters)
+        {
+            col.GetComponent<Unit>().TakeDamage(damage);
+        }
     }
 }
