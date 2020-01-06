@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f74843414a63b45b24b8236f127128, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoToRefill: 0
+  ammoToRefill: 1
   amountToRefill: 10
 --- !u!61 &3104314048659754809
 BoxCollider2D:
