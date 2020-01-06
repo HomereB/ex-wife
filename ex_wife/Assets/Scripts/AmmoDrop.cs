@@ -9,7 +9,7 @@ public class AmmoDrop : MonoBehaviour
     public AudioSource audiosource;
     public AudioClip sound;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
