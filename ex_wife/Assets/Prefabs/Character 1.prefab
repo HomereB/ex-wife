@@ -108,13 +108,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414350564106074895}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.026, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8303287758210597364}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &104199881619607134
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -128,7 +128,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.21291141, y: 0.009385303}
+  m_Offset: {x: 0.26669794, y: -0.07129431}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -139,7 +139,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.20692703, y: 0.22009155}
+  m_Size: {x: 0.31450003, y: 0.38145083}
   m_EdgeRadius: 0
 --- !u!114 &1690713816
 MonoBehaviour:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dca1a2e8704cc24d83c86770dadb2a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damages: 5
+  damages: 3
 --- !u!1 &8303287758210597365
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,14 +206,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   maxHealth: 100
-  speed: 2
+  speed: 3.5
   anim: {fileID: 8303287758210597366}
-  metamorphe: 0
-  progressionBar: {fileID: 0}
   bullet: {fileID: 7687161639644539403, guid: ec0436eafe23ce74b8c46c1c5846eac5, type: 3}
   smallbullet: {fileID: 3461627211563860591, guid: cba73eb0060d93c40bd378fd0a7d5d04,
     type: 3}
-  tabMun: 
+  Bazookabullet: {fileID: 7696337229901837289, guid: 8a8a133df72983c4c92e1da9d450aaba,
+    type: 3}
+  gameOverPanel: {fileID: 0}
   selectWeapon:
   - {fileID: 0}
   - {fileID: 0}
@@ -222,8 +222,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   HP: {fileID: 0}
-  HPnb: {fileID: 0}
-  actualIndex: 0
+  progressionBar: {fileID: 0}
+  HP_nb: {fileID: 0}
+  tabMun: 
 --- !u!212 &8303287758210597361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -353,7 +354,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0017623901, y: -0.054643214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -364,5 +365,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7058824, y: 1.117647}
+  m_Size: {x: 0.43442917, y: 0.69812775}
   m_EdgeRadius: 0

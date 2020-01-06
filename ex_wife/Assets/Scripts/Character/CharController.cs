@@ -7,16 +7,19 @@ using UnityEngine.SceneManagement;
 
 public class CharController : Unit
 {
+    [Header("Bullets prefabs")]
     public GameObject bullet;
     public GameObject smallbullet;
     public GameObject Bazookabullet;
-    public GameObject gameOverPanel;
 
+
+    [Header("UI Settings")]
+    public GameObject gameOverPanel;
     public List<Image> selectWeapon;
     public List<TextMeshProUGUI> MunitionsUI;
     public Slider HP;
     public Slider progressionBar;
-    public TextMeshProUGUI HPnb;
+    public TextMeshProUGUI HP_nb;
     public int[] tabMun;
 
     private float metamorphe = 0.0f;
@@ -53,6 +56,7 @@ public class CharController : Unit
         {
             this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * 3.5f * Time.deltaTime;
             xAxisJoystick = Input.GetAxis("Horizontal");
+            direction.x = xAxisJoystick;
             Flip();
             animator.SetFloat("Speed", 1.0f);
         }
@@ -84,22 +88,11 @@ public class CharController : Unit
         }
     }
 
-    void Flip()
-    {
-        if (Input.GetAxis("Horizontal") < 0.0f)
-        {
-            this.GetComponent<SpriteRenderer>().flipX = true;
-        }
-        else //if (Input.GetAxis("Horizontal") > 0.0f)
-        {
-            this.GetComponent<SpriteRenderer>().flipX = false;
-        }
-    }
-
     void Attack()
     {
         if (!isMeta)
         {
+            
             switch (actualIndex)
             {
                 case 0:
@@ -137,6 +130,7 @@ public class CharController : Unit
     {
         if (tabMun[1] > 0)
         {
+            metamorphe++;
             tabMun[1]--;
             GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
             GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
@@ -151,6 +145,7 @@ public class CharController : Unit
     {
         if (tabMun[2] > 0)
         {
+            metamorphe += 10.0f;
             GameObject InstantiateBullet = Instantiate(Bazookabullet, this.transform.position, Quaternion.identity);
             InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
             tabMun[2]--;
@@ -159,6 +154,7 @@ public class CharController : Unit
 
     void ClassicAttack()
     {
+        metamorphe += 0.5f;
         GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
         InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
     }
@@ -192,7 +188,7 @@ public class CharController : Unit
         MunitionsUI[1].text = tabMun[2].ToString();
 
         HP.value = Health / MaxHealth;
-        HPnb.text = Health.ToString();
+        HP_nb.text = Health.ToString();
     }
 
     void GameOver()
