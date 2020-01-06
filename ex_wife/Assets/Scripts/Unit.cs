@@ -16,6 +16,8 @@ public class Unit : MonoBehaviour
     public float Speed { get => speed; set => speed = value; }
     public float MaxHealth { get => maxHealth; set => maxHealth = value; }
 
+    public AudioClip hitSound, DeadSound;
+
     protected Vector3 direction;
 
     public Animator anim;
@@ -37,6 +39,7 @@ public class Unit : MonoBehaviour
 
         if (Health <= 0)
         {
+            
             StartCoroutine("Die");
         }
         else
