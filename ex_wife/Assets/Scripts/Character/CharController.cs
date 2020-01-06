@@ -51,7 +51,7 @@ public class CharController : Unit
         animator.SetFloat("Speed", 0f);
         if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.15f)
         {
-            this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * 2.0f * Time.deltaTime;
+            this.transform.position += new Vector3(Input.GetAxis("Horizontal"), 0, 0) * 3.5f * Time.deltaTime;
             xAxisJoystick = Input.GetAxis("Horizontal");
             Flip();
             animator.SetFloat("Speed", 1.0f);
@@ -59,7 +59,7 @@ public class CharController : Unit
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.15f)
         {
             yAxisJoystick = Input.GetAxis("Vertical");
-            this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * 2.0f * Time.deltaTime;
+            this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * 3.5f * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
         if (Input.GetButtonUp("XboxA"))
