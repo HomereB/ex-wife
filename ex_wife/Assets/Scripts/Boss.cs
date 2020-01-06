@@ -42,7 +42,7 @@ public class Boss : Unit
     public SpriteRenderer SR;
     public Image healthBar;
     public TextMeshProUGUI dmgTaken;
-
+    public float damage;
 
     // Start is called before the first frame update
     void Start()
@@ -234,5 +234,13 @@ public class Boss : Unit
         phase1,
         phase2,
         phase3
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<Unit>().TakeDamage(damage);
+        }
     }
 }
