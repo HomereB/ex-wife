@@ -145,7 +145,7 @@ MonoBehaviour:
   - {fileID: 3104314048659754812, guid: a9462da3dd4329341a9d1a48c94cd760, type: 3}
   - {fileID: 8386095753089672971, guid: ea81d311570b4034fb3db2455118299a, type: 3}
   dropProbability: 3
-  repairTime: 3
+  repairTime: 15
 --- !u!82 &2945457651225166461
 AudioSource:
   m_ObjectHideFlags: 0
