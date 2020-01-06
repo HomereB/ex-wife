@@ -137,7 +137,7 @@ MonoBehaviour:
   - {fileID: 6726025086290330349, guid: 6d24c535f710184469a6316bb9ecd283, type: 3}
   - {fileID: 8386095753089672971, guid: ea81d311570b4034fb3db2455118299a, type: 3}
   - {fileID: 3104314048659754812, guid: a9462da3dd4329341a9d1a48c94cd760, type: 3}
-  - {fileID: 1690205818126173360, guid: 811ecac77cc32054097f8fdee5d2d5bd, type: 3}
+  - {fileID: 6726025086290330349, guid: 6d24c535f710184469a6316bb9ecd283, type: 3}
   dropProbability: 8
   state: 0
   healingDistance: 4
