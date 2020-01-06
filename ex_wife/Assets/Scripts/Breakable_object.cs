@@ -5,8 +5,14 @@ using UnityEngine;
 public class Breakable_object : Unit
 {
     public GameObject[] ammoDrop;
-    public int dropProbability; //plus le nombre est grand, moins on a de chance de drop une munition
+    public int dropProbability;
+    public float repairTime;
+    private Sprite initialSprite;
 
+    private void Start()
+    {
+        initialSprite = GetComponent<SpriteRenderer>().sprite;
+    }
 
     protected void SpawnAmmo()
     {
@@ -17,9 +23,29 @@ public class Breakable_object : Unit
         }
     }
 
-    protected override IEnumerator Die()
+    public override void TakeDamage(float dam)
+    {
+        Health -= dam;
+
+        if (Health <= 0)
+        {
+            audioSource.clip = DeadSound; audioSource.Play();
+            anim.enabled = true;
+            StartCoroutine("Break");
+        }
+    }
+
+    protected IEnumerator Break()
     {
         SpawnAmmo();
-        yield return StartCoroutine(base.Die());
+        GetComponent<Collider2D>().enabled = false;
+        yield return new WaitForSeconds(repairTime);
+        GameObject go = Instantiate(gameObject);
+        go.GetComponent<Collider2D>().enabled = true;
+
+        go.GetComponent<Animator>().enabled = false;
+        go.GetComponent<SpriteRenderer>().sprite = initialSprite;
+
+        Destroy(gameObject);
     }
 }
