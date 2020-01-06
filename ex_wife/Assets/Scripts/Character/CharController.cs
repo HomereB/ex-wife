@@ -35,6 +35,7 @@ public class CharController : Unit
 
     void Start()
     {
+        Time.timeScale = 1;
         tabMun = new int[3]; tabMun[0] = 10000; tabMun[1] = 10; tabMun[2] = 0; 
         animator = this.GetComponent<Animator>();
         animator.SetFloat("Speed", 0f);   
@@ -212,7 +213,8 @@ public class CharController : Unit
         if (Health <= 0)
         {
             gameover = true;
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
+            this.gameObject.SetActive(false);
             gameOverPanel.SetActive(true);
             
         }
