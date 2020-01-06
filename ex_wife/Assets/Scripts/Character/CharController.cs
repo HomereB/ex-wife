@@ -15,6 +15,7 @@ public class CharController : Unit
 
     [Header("UI Settings")]
     public GameObject gameOverPanel;
+    public GameObject victoryPanel;
     public List<Image> selectWeapon;
     public List<TextMeshProUGUI> MunitionsUI;
     public Slider HP;
@@ -24,6 +25,8 @@ public class CharController : Unit
 
     [Header("Sounds Settings")]
     public List<AudioClip> bulletsSound;
+
+    public GameObject boss;
 
     private float metamorphe = 0.1f;
     private bool isMeta = false;
@@ -35,6 +38,7 @@ public class CharController : Unit
     private bool bazooka = false;
     private int actualIndex = 0;
     private bool gameover = false;
+    private bool victory = false;
 
     void Start()
     {
@@ -54,7 +58,10 @@ public class CharController : Unit
 
         checkIndex();
         UpdateUI();
+
+        //-----UI End-----
         GameOver();
+        Victory();
     }
 
     void JoystickCall()
@@ -87,7 +94,7 @@ public class CharController : Unit
         {
             actualIndex--;
         }
-        if (gameover)
+        if (gameover || victory)
         {
             if (Input.GetButtonUp("Start"))
             {
@@ -221,11 +228,21 @@ public class CharController : Unit
     {
         if (Health <= 0)
         {
+            Health = 0;
             gameover = true;
             //Time.timeScale = 0;
             //this.gameObject.SetActive(false);
             gameOverPanel.SetActive(true);
             
+        }
+    }
+
+    void Victory()
+    {
+        if (boss.GetComponent<Boss>().Health <= 0)
+        {
+            victory = true;
+            victoryPanel.SetActive(true);
         }
     }
 
