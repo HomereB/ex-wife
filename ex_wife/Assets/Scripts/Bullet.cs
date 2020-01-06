@@ -40,6 +40,7 @@ public class Bullet : MonoBehaviour
             Collider2D[] hitMonsters = Physics2D.OverlapCircleAll(transform.position,explosionRadius);
             foreach(Collider2D col in hitMonsters)
             {
+                if(col.GetComponent<Unit>()!= null)
                 col.GetComponent<Unit>().TakeDamage(damage);
             }
         }

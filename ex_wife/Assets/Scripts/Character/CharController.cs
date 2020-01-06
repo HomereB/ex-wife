@@ -31,10 +31,15 @@ public class CharController : Unit
     private float speedMeta = 0.08f;
     private float xAxisJoystick = 0.0f;
     private float yAxisJoystick = 0.0f;
+    private float xAxisJoystickRight = 0.0f;
+    private float yAxisJoystickRight = 0.0f;
     private bool shotgun = false;
     private bool bazooka = false;
     private int actualIndex = 0;
     private bool gameover = false;
+    private bool hasAttacked = false;
+
+    public GameObject crosshair;
 
     void Start()
     {
@@ -74,10 +79,36 @@ public class CharController : Unit
             this.transform.position += new Vector3(0, Input.GetAxis("Vertical"), 0) * 3.5f * Time.deltaTime;
             animator.SetFloat("Speed", 1.0f);
         }
-        if (Input.GetButtonUp("XboxA"))
+
+        Vector3 crosshairPos = Vector3.zero;
+        if (Mathf.Abs(Input.GetAxis("Horizontal Right")) > 0.05f)
         {
-            animator.SetTrigger("Attack");
-            Attack();
+            xAxisJoystickRight = Input.GetAxis("Horizontal Right");
+            crosshairPos += new Vector3(Input.GetAxis("Horizontal Right"), 0, 0) * 3.5f * Time.deltaTime;
+        }
+
+        if (Mathf.Abs(Input.GetAxis("Vertical Right")) > 0.05f)
+        {
+            yAxisJoystickRight = Input.GetAxis("Vertical Right");
+            crosshairPos += new Vector3(0, -Input.GetAxis("Vertical Right"), 0) * 3.5f * Time.deltaTime;
+        }
+
+        crosshairPos.Normalize();
+        crosshair.transform.position = transform.position + crosshairPos;
+
+        if (Mathf.Abs(Input.GetAxis("Fire Trigger")) > 0.15f)
+        {
+            if(!hasAttacked)
+            {
+                animator.SetTrigger("Attack");
+                Attack();
+                hasAttacked = true;
+            }
+        }
+
+        if (Mathf.Abs(Input.GetAxis("Fire Trigger")) < 0.15f)
+        {
+            hasAttacked = false;        
         }
         if (Input.GetButtonUp("scroll"))
         {
@@ -157,9 +188,13 @@ public class CharController : Unit
             GameObject InstantiateBullet = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
             GameObject InstantiateBullet1 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
             GameObject InstantiateBullet2 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
-            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
-            InstantiateBullet1.transform.right = new Vector3(xAxisJoystick + 0.15f, yAxisJoystick + 0.15f, 0);
-            InstantiateBullet2.transform.right = new Vector3(xAxisJoystick - 0.15f, yAxisJoystick - 0.15f, 0);
+            GameObject InstantiateBullet3 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+            GameObject InstantiateBullet4 = Instantiate(smallbullet, this.transform.position, Quaternion.identity);
+            InstantiateBullet.transform.right = new Vector3(xAxisJoystickRight, -yAxisJoystickRight, 0);
+            InstantiateBullet1.transform.right = new Vector3(xAxisJoystickRight + 0.15f, -yAxisJoystickRight + 0.15f, 0);
+            InstantiateBullet2.transform.right = new Vector3(xAxisJoystickRight - 0.15f, -yAxisJoystickRight - 0.15f, 0);
+            InstantiateBullet3.transform.right = new Vector3(xAxisJoystickRight + 0.075f, -yAxisJoystickRight + 0.075f, 0);
+            InstantiateBullet4.transform.right = new Vector3(xAxisJoystickRight - 0.075f, -yAxisJoystickRight - 0.075f, 0);
         }
     }
 
@@ -171,7 +206,7 @@ public class CharController : Unit
             audioSource.Play();
             metamorphe += 10.0f;
             GameObject InstantiateBullet = Instantiate(Bazookabullet, this.transform.position, Quaternion.identity);
-            InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+            InstantiateBullet.transform.right = new Vector3(xAxisJoystickRight, -yAxisJoystickRight, 0);
             tabMun[2]--;
         }
     }
@@ -182,7 +217,7 @@ public class CharController : Unit
         audioSource.Play();
         metamorphe += 0.5f;
         GameObject InstantiateBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
-        InstantiateBullet.transform.right = new Vector3(xAxisJoystick, yAxisJoystick, 0);
+        InstantiateBullet.transform.right = new Vector3(xAxisJoystickRight, -yAxisJoystickRight, 0);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
