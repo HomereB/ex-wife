@@ -6,6 +6,8 @@ public class AmmoDrop : MonoBehaviour
 {
     public int ammoToRefill;
     public int amountToRefill;
+    public AudioSource audiosource;
+    public AudioClip sound;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

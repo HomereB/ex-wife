@@ -7,6 +7,8 @@ public class ElectricObject : MonoBehaviour
     public float damage;
     public GameObject spawn;
     public float timeBeforeDestruction;
+    public AudioSource audiosource;
+    public AudioClip sound;
 
     private void Update()
     {
@@ -35,5 +37,10 @@ public class ElectricObject : MonoBehaviour
             //GetComponent<Collider>().enabled = false;
             //Destroy(gameObject);
         }
+    }
+
+    void PlaySound()
+    {
+        audiosource.clip = sound; audiosource.Play();
     }
 }

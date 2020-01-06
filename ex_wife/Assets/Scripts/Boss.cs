@@ -43,6 +43,7 @@ public class Boss : Unit
     public Image healthBar;
     public TextMeshProUGUI dmgTaken;
     public float damage;
+    public AudioClip attack1Sound, attack2Sound, attack3Sound;
 
     // Start is called before the first frame update
     void Start()
@@ -109,7 +110,7 @@ public class Boss : Unit
                 if (capacityCooldown2 <= 0)
                 {
                     ElekOrbP2 = ElectricOrbAttack(8, 1, 0, 0);
-
+                    audioSource.clip = attack2Sound; audioSource.Play();
                     StartCoroutine(ElekOrbP2);
                     capacityCooldown2 = maxCapacityCooldown2;
 
@@ -144,7 +145,7 @@ public class Boss : Unit
                 if (capacityCooldown2 <= 0)
                 {
                     ElekOrbP3 = ElectricOrbAttack(16, 1, 0, 0);
-
+                    audioSource.clip = attack2Sound; audioSource.Play();
                     StartCoroutine(ElekOrbP3);
                     capacityCooldown2 = maxCapacityCooldown2 / 2.0f;
                 }
@@ -153,6 +154,7 @@ public class Boss : Unit
 
                 if (capacityCooldown3 <= 0)
                 {
+                    audioSource.clip = attack3Sound; audioSource.Play();
                     ElekOrbP4 = ElectricOrbAttack(16, 2, 0.5f, 5);
                     StartCoroutine(ElekOrbP4);
                     capacityCooldown3 = maxCapacityCooldown3;
@@ -176,6 +178,7 @@ public class Boss : Unit
             float x = UnityEngine.Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
             float y = UnityEngine.Random.Range(-lightningStrikeDistanceToTarget, lightningStrikeDistanceToTarget);
             Vector3 strikePos = target.transform.position + new Vector3(x, y, 0);
+            audioSource.clip = attack1Sound; audioSource.Play();
             Instantiate(attacks[0],strikePos,Quaternion.identity);
             yield return new WaitForSeconds(delayBetweenStrikes);
         }

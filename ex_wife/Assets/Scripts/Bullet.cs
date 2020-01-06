@@ -12,6 +12,9 @@ public class Bullet : MonoBehaviour
     bool targetHit = false;
     public float timeToDestroy;
 
+    public AudioSource audioSource;
+    public AudioClip explosion;
+
     IEnumerator blub;
 
     void Start()
@@ -40,13 +43,17 @@ public class Bullet : MonoBehaviour
             Collider2D[] hitMonsters = Physics2D.OverlapCircleAll(transform.position,explosionRadius);
             foreach(Collider2D col in hitMonsters)
             {
-                col.GetComponent<Unit>().TakeDamage(damage);
+                if (col.GetComponent<Unit>() != null)
+                {
+                    col.GetComponent<Unit>().TakeDamage(damage);
+                }
             }
         }
     }
 
     private void DestroyObject()
     {
+        audioSource.clip = explosion; audioSource.Play();
         Destroy(gameObject);
     }
 
