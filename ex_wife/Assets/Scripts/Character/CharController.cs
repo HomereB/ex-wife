@@ -22,7 +22,7 @@ public class CharController : Unit
     public TextMeshProUGUI HP_nb;
     public int[] tabMun;
 
-    private float metamorphe = 0.0f;
+    private float metamorphe = 0.1f;
     private bool isMeta = false;
     private Animator animator;
     private float speedMeta = 0.08f;
@@ -43,7 +43,11 @@ public class CharController : Unit
     void Update()
     {
         JoystickCall();
+        //-----Meta-----
         Metamorphose();
+        progressionBar.value = metamorphe / 100.0f;
+        MetaInverse();
+
         checkIndex();
         UpdateUI();
         GameOver();
@@ -111,17 +115,29 @@ public class CharController : Unit
     }
     void Metamorphose()
     {
-        progressionBar.value = metamorphe / 100.0f;
-        metamorphe += speedMeta;
-
         if (metamorphe >= 100.0f)
         {
-            speedMeta = 0.0f;
+            
             if (!isMeta)
             {
                 //change du poids du layer pour changer le layer
                 animator.SetLayerWeight(1, 1);
                 isMeta = true;
+            }
+        }
+    }
+
+    void MetaInverse()
+    {
+        if (isMeta)
+        {
+            metamorphe -= speedMeta;
+
+            if (metamorphe <= 0.0f)
+            {
+                speedMeta = 0.0f;
+                animator.SetLayerWeight(1, 0);
+                isMeta = false;
             }
         }
     }
