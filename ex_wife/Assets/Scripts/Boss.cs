@@ -85,6 +85,7 @@ public class Boss : Unit
                 {
                     capacityCooldown1 = 5;
                     SR.color = Color.magenta;
+                    GetComponent<Animator>().speed *= 2;
                     state = State.phase2;
                 }
 
@@ -119,7 +120,7 @@ public class Boss : Unit
                     capacityCooldown1 = 5;
                     capacityCooldown2 = 15;
                     SR.color = Color.red;
-
+                    GetComponent<Animator>().speed *= 2;
                     state = State.phase3;
                 }
 
